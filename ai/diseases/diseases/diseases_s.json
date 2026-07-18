@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Scabies",
+        "description": "An itchy skin condition caused by a tiny burrowing mite.",
+        "causes": "Sarcoptes scabiei mite.",
+        "symptoms": [
+            "Intense itching, especially at night",
+            "Thin, irregular burrow tracks"
+        ],
+        "prevention": "Avoid direct skin-to-skin contact with an infected person.",
+        "treatment_action": "Prescription creams or lotions to kill the mites.",
+        "complications": "Secondary bacterial infections from scratching.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Schizophrenia",
+        "description": "A serious mental disorder in which people interpret reality abnormally.",
+        "causes": "Genetics, brain chemistry, and environment.",
+        "symptoms": [
+            "Delusions",
+            "Hallucinations",
+            "Disorganized thinking",
+            "Negative symptoms (reduced ability to function)"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Antipsychotic medications and psychosocial therapy.",
+        "complications": "Suicide, anxiety, and inability to work or attend school.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Scurvy",
+        "description": "A disease caused by a severe vitamin C deficiency.",
+        "causes": "Lack of vitamin C in the diet.",
+        "symptoms": [
+            "Fatigue",
+            "Swollen, bleeding gums",
+            "Joint pain",
+            "Easy bruising"
+        ],
+        "prevention": "Eat a diet rich in vitamin C (fruits and vegetables).",
+        "treatment_action": "Vitamin C supplements and dietary changes.",
+        "complications": "Severe jaundice, generalized edema, and spontaneous bleeding.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Stroke",
+        "description": "Occurs when the blood supply to part of your brain is interrupted or reduced.",
+        "causes": "Blocked artery (ischemic stroke) or leaking/bursting of a blood vessel (hemorrhagic stroke).",
+        "symptoms": [
+            "Trouble speaking and understanding",
+            "Paralysis or numbness of the face, arm or leg",
+            "Problems seeing",
+            "Headache",
+            "Trouble walking"
+        ],
+        "prevention": "Control high blood pressure, quit smoking, and exercise regularly.",
+        "treatment_action": "Emergency medical care is crucial. Treatments include clot-busting drugs or surgery.",
+        "complications": "Paralysis, memory loss, and emotional problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Syphilis",
+        "description": "A bacterial infection usually spread by sexual contact.",
+        "causes": "Treponema pallidum bacteria.",
+        "symptoms": [
+            "Painless sore (chancre)",
+            "Rash on palms and soles",
+            "Fever",
+            "Swollen lymph glands"
+        ],
+        "prevention": "Safe sex practices.",
+        "treatment_action": "Antibiotics (penicillin).",
+        "complications": "Neurological and cardiovascular problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

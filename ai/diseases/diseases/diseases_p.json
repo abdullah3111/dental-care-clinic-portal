@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Parkinson's Disease",
+        "description": "A progressive nervous system disorder that affects movement.",
+        "causes": "Loss of dopamine-producing neurons in the brain.",
+        "symptoms": [
+            "Tremor",
+            "Slowed movement (bradykinesia)",
+            "Rigid muscles",
+            "Impaired posture and balance"
+        ],
+        "prevention": "No known way to prevent, but regular aerobic exercise might reduce risk.",
+        "treatment_action": "Medications to increase dopamine levels and sometimes surgery.",
+        "complications": "Thinking difficulties, depression, and swallowing problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Pneumonia",
+        "description": "An infection that inflames the air sacs in one or both lungs.",
+        "causes": "Bacteria, viruses, or fungi.",
+        "symptoms": [
+            "Chest pain when breathing or coughing",
+            "Cough with phlegm",
+            "Fatigue",
+            "Fever, sweating and shaking chills",
+            "Shortness of breath"
+        ],
+        "prevention": "Vaccination and good hygiene.",
+        "treatment_action": "Antibiotics, antivirals, or antifungals depending on the cause.",
+        "complications": "Bacteria in the bloodstream, difficulty breathing, and lung abscess.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Polio",
+        "description": "A disabling and life-threatening disease caused by the poliovirus.",
+        "causes": "Poliovirus.",
+        "symptoms": [
+            "Fever",
+            "Sore throat",
+            "Headache",
+            "Vomiting",
+            "Fatigue",
+            "Muscle weakness or paralysis"
+        ],
+        "prevention": "Polio vaccine.",
+        "treatment_action": "Supportive care (rest, pain relievers, physical therapy).",
+        "complications": "Permanent paralysis and muscle deformities.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Psoriasis",
+        "description": "A skin disease that causes red, itchy scaly patches.",
+        "causes": "Immune system problem that causes skin cells to grow faster than usual.",
+        "symptoms": [
+            "Red patches of skin covered with thick, silvery scales",
+            "Dry, cracked skin",
+            "Itching, burning or soreness",
+            "Thickened, pitted or ridged nails"
+        ],
+        "prevention": "Moisturize skin and avoid triggers like stress and smoking.",
+        "treatment_action": "Topical therapy, light therapy, and oral or injected medications.",
+        "complications": "Psoriatic arthritis and increased risk of cardiovascular disease.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

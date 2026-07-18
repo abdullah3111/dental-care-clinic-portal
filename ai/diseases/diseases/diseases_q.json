@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Q Fever",
+        "description": "A bacterial infection caused by the bacterium Coxiella burnetii.",
+        "causes": "Inhaling dust contaminated by infected animals (cattle, sheep, goats).",
+        "symptoms": [
+            "High fever",
+            "Severe headache",
+            "Chills",
+            "Fatigue",
+            "Muscle aches",
+            "Nausea and vomiting"
+        ],
+        "prevention": "Avoid contact with infected animals and pasteurize milk.",
+        "treatment_action": "Antibiotics (doxycycline).",
+        "complications": "Chronic Q fever, which can damage the heart, liver, or lungs.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Quadriplegia",
+        "description": "Paralysis of all four limbs and torso, typically caused by spinal cord injury.",
+        "causes": "Spinal cord injury, stroke, or neurological conditions.",
+        "symptoms": [
+            "Loss of movement in arms and legs",
+            "Loss of sensation below injury level",
+            "Difficulty breathing",
+            "Loss of bowel and bladder control",
+            "Sexual dysfunction"
+        ],
+        "prevention": "Avoid high-risk activities, use safety equipment, drive safely.",
+        "treatment_action": "Rehabilitation therapy, assistive devices, medications.",
+        "complications": "Pressure sores, blood clots, respiratory problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Quinsy (Peritonsillar Abscess)",
+        "description": "A bacterial infection that causes a pus-filled swelling near the tonsils.",
+        "causes": "Bacterial infection, often following strep throat or tonsillitis.",
+        "symptoms": [
+            "Severe sore throat",
+            "Difficulty swallowing",
+            "Fever and chills",
+            "Swollen lymph nodes",
+            "Muffled voice"
+        ],
+        "prevention": "Treat strep throat promptly, maintain good oral hygiene.",
+        "treatment_action": "Antibiotics and drainage of the abscess.",
+        "complications": "Airway obstruction, spread of infection.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Quinine Poisoning",
+        "description": "Toxicity from excessive quinine intake, historically used to treat malaria.",
+        "causes": "Overdose of quinine medication or consumption of large amounts of tonic water.",
+        "symptoms": [
+            "Nausea and vomiting",
+            "Diarrhea",
+            "Hearing problems",
+            "Vision problems",
+            "Heart rhythm abnormalities"
+        ],
+        "prevention": "Follow prescribed dosages, avoid excessive tonic water consumption.",
+        "treatment_action": "Supportive care, activated charcoal if recent ingestion.",
+        "complications": "Permanent hearing or vision loss, cardiac arrest.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Quervain's Thyroiditis",
+        "description": "A painful inflammation of the thyroid gland, often following a viral infection.",
+        "causes": "Viral infection affecting the thyroid gland.",
+        "symptoms": [
+            "Neck pain radiating to jaw or ears",
+            "Tender, swollen thyroid",
+            "Fever",
+            "Fatigue",
+            "Symptoms of hyperthyroidism initially"
+        ],
+        "prevention": "No specific prevention, maintain good immune health.",
+        "treatment_action": "Anti-inflammatory medications, beta-blockers if needed.",
+        "complications": "Permanent hypothyroidism in some cases.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Quervain's Tenosynovitis",
+        "description": "A painful condition affecting the tendons on the thumb side of the wrist.",
+        "causes": "Repetitive hand and wrist motions, pregnancy, rheumatoid arthritis.",
+        "symptoms": [
+            "Pain near the base of the thumb",
+            "Swelling near the base of the thumb",
+            "Difficulty moving thumb and wrist",
+            "A 'catching' or 'snapping' sensation"
+        ],
+        "prevention": "Avoid repetitive thumb and wrist motions, take frequent breaks.",
+        "treatment_action": "Rest, splinting, anti-inflammatory medications, steroid injections.",
+        "complications": "Chronic pain and limited thumb movement.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Queensland Tick Typhus",
+        "description": "A bacterial infection transmitted by tick bites in Australia.",
+        "causes": "Rickettsia australis bacteria transmitted by tick bites.",
+        "symptoms": [
+            "Fever and headache",
+            "Muscle aches",
+            "Rash",
+            "Swollen lymph nodes",
+            "Eschar (black scab) at bite site"
+        ],
+        "prevention": "Avoid tick-infested areas, use insect repellent, wear protective clothing.",
+        "treatment_action": "Antibiotics (doxycycline).",
+        "complications": "Rarely, severe complications affecting multiple organs.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Quinke's Edema (Angioedema)",
+        "description": "Rapid swelling of deeper layers of skin and mucous membranes.",
+        "causes": "Allergic reactions, medications (ACE inhibitors), hereditary factors.",
+        "symptoms": [
+            "Swelling of face, lips, tongue, or throat",
+            "Difficulty breathing or swallowing",
+            "Hives may be present",
+            "Abdominal pain if intestines affected"
+        ],
+        "prevention": "Avoid known allergens, carry epinephrine if prescribed.",
+        "treatment_action": "Antihistamines, corticosteroids, epinephrine for severe cases.",
+        "complications": "Airway obstruction, which can be life-threatening.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "Quadriceps Tendon Rupture",
+        "description": "A tear in the tendon that connects the quadriceps muscle to the kneecap.",
+        "causes": "Sudden forceful contraction, falls, or degenerative changes with age.",
+        "symptoms": [
+            "Sudden severe pain above the kneecap",
+            "Inability to straighten the knee",
+            "Swelling and bruising",
+            "A gap or depression above the kneecap",
+            "Difficulty walking"
+        ],
+        "prevention": "Proper warm-up before exercise, maintain muscle strength.",
+        "treatment_action": "Surgical repair followed by physical therapy.",
+        "complications": "Permanent weakness, loss of knee function if untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Quinine-Induced Thrombocytopenia",
+        "description": "A condition where quinine causes a severe drop in platelet count.",
+        "causes": "Immune reaction to quinine medication.",
+        "symptoms": [
+            "Easy bruising",
+            "Petechial rash (small red spots)",
+            "Bleeding gums",
+            "Heavy menstrual periods",
+            "Blood in urine or stool"
+        ],
+        "prevention": "Avoid quinine if previously experienced this reaction.",
+        "treatment_action": "Discontinue quinine, platelet transfusions if severe, corticosteroids.",
+        "complications": "Severe bleeding, intracranial hemorrhage.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

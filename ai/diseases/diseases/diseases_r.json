@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Rabies",
+        "description": "A deadly virus spread to people from the saliva of infected animals.",
+        "causes": "Rabies virus.",
+        "symptoms": [
+            "Fever",
+            "Headache",
+            "Nausea",
+            "Vomiting",
+            "Agitation",
+            "Confusion",
+            "Difficulty swallowing",
+            "Fear of water (hydrophobia)"
+        ],
+        "prevention": "Vaccinate pets and avoid wild animals.",
+        "treatment_action": "Immediate post-exposure prophylaxis (vaccine and immune globulin).",
+        "complications": "Death is almost certain once symptoms appear.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Rheumatoid Arthritis",
+        "description": "A chronic inflammatory disorder that can affect more than just your joints.",
+        "causes": "Autoimmune disorder.",
+        "symptoms": [
+            "Tender, warm, swollen joints",
+            "Joint stiffness",
+            "Fatigue, fever and loss of appetite"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Disease-modifying antirheumatic drugs (DMARDs) and physical therapy.",
+        "complications": "Osteoporosis, rheumatoid nodules, and heart problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Ringworm",
+        "description": "A fungal infection that develops on the top layer of your skin.",
+        "causes": "Fungi.",
+        "symptoms": [
+            "A scaly ring-shaped area",
+            "Itchiness",
+            "A round, flat patch of itchy skin"
+        ],
+        "prevention": "Keep skin clean and dry, and don't share personal items.",
+        "treatment_action": "Antifungal medications.",
+        "complications": "Secondary bacterial infections.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Rosacea",
+        "description": "A common skin condition that causes blushing or flushing and visible blood vessels in your face.",
+        "causes": "Unknown, but could be due to an overactive immune system or genetics.",
+        "symptoms": [
+            "Facial flushing",
+            "Visible veins",
+            "Swollen, pus-filled bumps",
+            "Burning sensation"
+        ],
+        "prevention": "Identify and avoid triggers.",
+        "treatment_action": "Topical treatments and oral medications.",
+        "complications": "Enlarged nose (rhinophyma) and eye problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Profile - MediCare Clinic</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Navbar Specific Reset */
+        .header, .header * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="doctor-profile.css">
+    <link rel="stylesheet" href="hover-effects.css">
+    <style>
+        /* Doctor Profile Page Specific Navbar Background */
+        .header {
+            background: linear-gradient(90deg, #1e5799, #2989d8, #4CAF50) !important;
+            backdrop-filter: blur(20px) !important;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+        }
+        
+        .header .navbar {
+            background: linear-gradient(90deg, #1e5799, #2989d8, #4CAF50) !important;
+        }
+        
+        .header .logo {
+            color: white !important;
+            text-shadow: none !important;
+        }
+        
+        .header .nav-menu a {
+            color: white !important;
+            text-shadow: none !important;
+        }
+        
+        .header .profile-icon > i {
+            color: white !important;
+            text-shadow: none !important;
+        }
+        
+        .header .hamburger span {
+            background: white !important;
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Include Navbar -->
+    <!-- Header -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="top-container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +92 21 1234 5678</span>
+                    <span><i class="fas fa-envelope"></i> info@medicareclinic.com</span>
+                </div>
+                <div class="social-links-top">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo">
+                    <img src="assets/images/Clinic-logo.png" alt="MediCare Clinic" class="logo-img">
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="doctor-profile.html">Doctors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="profile-icon">
+                    <i class="fas fa-user-circle"></i>
+                    <div class="profile-dropdown">
+                        <a href="users/index.html" class="hover-effect hover-dropdown-item"><i class="fas fa-user"></i> My Profile</a>
+                        <a href="users/appointments.html" class="hover-effect hover-dropdown-item"><i class="fas fa-calendar"></i> My Appointments</a>
+                        <a href="users/medical-records.html" class="hover-effect hover-dropdown-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                        <a href="#" class="hover-effect hover-dropdown-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Doctor Profile Section -->
+    <section class="doctor-profile-section">
+        <div class="container">
+            <!-- Breadcrumb Navigation -->
+            <div class="breadcrumb">
+                <a href="home.html">Home</a>
+                <span class="separator">/</span>
+                <span class="current">Doctor Details</span>
+            </div>
+
+            <!-- Doctor Profile Content -->
+            <div class="doctor-profile-content">
+                <!-- Doctor Image and Basic Info -->
+                <div class="doctor-main-info">
+                    <div class="doctor-basic-info">
+                        <h1 id="doctor-name">Dr. Hassan Ali</h1>
+                        <p class="specialty" id="doctor-specialty">Dermatologist</p>
+                        <p class="experience" id="doctor-experience">14+ Years Experience</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">4.9 (127 reviews)</span>
+                        </div>
+                        <div class="doctor-actions">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                            <button class="btn-call hover-effect hover-button-white">
+                                <i class="fas fa-phone"></i>
+                                Call Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="doctor-image-large">
+                        <img id="doctor-image" src="assets/images/doc1.jpg" alt="Doctor">
+                    </div>
+                </div>
+
+                <!-- Doctor Details Tabs -->
+                <div class="doctor-details">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="about">About</button>
+                        <button class="tab-btn" data-tab="education">Education</button>
+                        <button class="tab-btn" data-tab="services">Services</button>
+                        <button class="tab-btn" data-tab="schedule">Schedule</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <!-- About Tab -->
+                        <div class="tab-pane active" id="about">
+                            <h3>About Dr. <span id="about-doctor-name">Hassan Ali</span></h3>
+                            <p id="doctor-about">Dr. Hassan Ali is a highly experienced dermatologist with over 14 years of practice in treating various skin conditions. He specializes in cosmetic dermatology, skin cancer treatment, and advanced dermatological procedures. Dr. Ali is known for his patient-centered approach and commitment to providing the highest quality care.</p>
+                            
+                            <div class="specializations">
+                                <h4>Specializations</h4>
+                                <ul id="doctor-specializations">
+                                    <li>Cosmetic Dermatology</li>
+                                    <li>Skin Cancer Treatment</li>
+                                    <li>Acne Treatment</li>
+                                    <li>Laser Therapy</li>
+                                    <li>Anti-aging Treatments</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Education Tab -->
+                        <div class="tab-pane" id="education">
+                            <h3>Education & Qualifications</h3>
+                            <div class="education-list" id="doctor-education">
+                                <div class="education-item">
+                                    <h4>MBBS</h4>
+                                    <p>Dow University of Health Sciences, Karachi</p>
+                                    <span>2006-2011</span>
+                                </div>
+                                <div class="education-item">
+                                    <h4>MD Dermatology</h4>
+                                    <p>Aga Khan University Hospital, Karachi</p>
+                                    <span>2012-2015</span>
+                                </div>
+                                <div class="education-item">
+                                    <h4>Fellowship in Cosmetic Dermatology</h4>
+                                    <p>American Academy of Dermatology</p>
+                                    <span>2016</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Services Tab -->
+                        <div class="tab-pane" id="services">
+                            <h3>Services Offered</h3>
+                            <div class="services-grid" id="doctor-services">
+                                <div class="service-item">
+                                    <i class="fas fa-user-md"></i>
+                                    <h4>General Dermatology</h4>
+                                    <p>Comprehensive skin examination and treatment</p>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-magic"></i>
+                                    <h4>Cosmetic Procedures</h4>
+                                    <p>Botox, fillers, and aesthetic treatments</p>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-microscope"></i>
+                                    <h4>Skin Cancer Screening</h4>
+                                    <p>Early detection and treatment of skin cancer</p>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-laser"></i>
+                                    <h4>Laser Treatments</h4>
+                                    <p>Advanced laser therapy for various conditions</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Schedule Tab -->
+                        <div class="tab-pane" id="schedule">
+                            <h3>Available Schedule</h3>
+                            <div class="schedule-table" id="doctor-schedule">
+                                <div class="schedule-day">
+                                    <span class="day">Monday</span>
+                                    <span class="time">9:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="schedule-day">
+                                    <span class="day">Tuesday</span>
+                                    <span class="time">9:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="schedule-day">
+                                    <span class="day">Wednesday</span>
+                                    <span class="time">9:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="schedule-day">
+                                    <span class="day">Thursday</span>
+                                    <span class="time">9:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="schedule-day">
+                                    <span class="day">Friday</span>
+                                    <span class="time">9:00 AM - 3:00 PM</span>
+                                </div>
+                                <div class="schedule-day unavailable">
+                                    <span class="day">Saturday</span>
+                                    <span class="time">Closed</span>
+                                </div>
+                                <div class="schedule-day unavailable">
+                                    <span class="day">Sunday</span>
+                                    <span class="time">Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="doctor-profile.js"></script>
+</body>
+</html>

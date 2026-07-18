@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Varicose Veins",
+        "description": "Gnarled, enlarged veins, most commonly in the legs and feet.",
+        "causes": "Weak or damaged vein walls and valves.",
+        "symptoms": [
+            "Veins that are dark purple or blue",
+            "Veins that appear twisted and bulging",
+            "An achy or heavy feeling in the legs",
+            "Swelling in the lower legs"
+        ],
+        "prevention": "Exercise, maintain a healthy weight, and avoid standing or sitting for long periods.",
+        "treatment_action": "Compression stockings, exercise, or medical procedures (sclerotherapy, laser treatment).",
+        "complications": "Ulcers, blood clots, and bleeding.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Vertigo",
+        "description": "A sensation of spinning or dizziness.",
+        "causes": "Inner ear problems or neurological conditions.",
+        "symptoms": [
+            "Spinning sensation",
+            "Loss of balance",
+            "Nausea and vomiting",
+            "Headache"
+        ],
+        "prevention": "Avoid sudden head movements and manage underlying conditions.",
+        "treatment_action": "Vestibular rehabilitation and medications.",
+        "complications": "Falls and injuries.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

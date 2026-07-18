@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Kidney Stones",
+        "description": "Hard deposits made of minerals and salts that form inside your kidneys.",
+        "causes": "Dehydration, certain diets, obesity, and some medical conditions.",
+        "symptoms": [
+            "Severe pain in the side and back",
+            "Pain that radiates to the lower abdomen and groin",
+            "Pain on urination",
+            "Pink, red or brown urine"
+        ],
+        "prevention": "Drink plenty of water and limit salt/animal protein.",
+        "treatment_action": "Pain relievers, drinking water, or medical procedures (lithotripsy).",
+        "complications": "Kidney damage and recurrent stones.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Kawasaki Disease",
+        "description": "A condition that causes inflammation in the walls of medium-sized arteries throughout the body, including the coronary arteries.",
+        "causes": "Unknown, but thought to be an immune response to an infection.",
+        "symptoms": [
+            "High fever",
+            "Rash",
+            "Swelling of hands and feet",
+            "Red eyes",
+            "Swollen lymph nodes"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Gamma globulin and aspirin (under medical supervision).",
+        "complications": "Heart artery aneurysms and heart valve problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Kyphosis",
+        "description": "An exaggerated, forward rounding of the back.",
+        "causes": "Osteoporosis, disc degeneration, or birth defects.",
+        "symptoms": [
+            "Abnormally curved spine",
+            "Back pain",
+            "Stiffness"
+        ],
+        "prevention": "Maintain good posture and treat osteoporosis.",
+        "treatment_action": "Physical therapy, braces, or surgery in severe cases.",
+        "complications": "Physical disfigurement, back pain, and breathing difficulties.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

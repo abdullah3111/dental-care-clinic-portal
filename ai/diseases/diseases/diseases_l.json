@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Leukemia",
+        "description": "Cancer of the body's blood-forming tissues, including the bone marrow and the lymphatic system.",
+        "causes": "Genetic and environmental factors.",
+        "symptoms": [
+            "Fever or chills",
+            "Persistent fatigue",
+            "Frequent infections",
+            "Easy bleeding or bruising"
+        ],
+        "prevention": "Avoid exposure to high levels of radiation and certain chemicals.",
+        "treatment_action": "Chemotherapy, radiation therapy, and stem cell transplant.",
+        "complications": "Infections, severe bleeding, and secondary cancers.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Liver Cirrhosis",
+        "description": "Late-stage scarring of the liver.",
+        "causes": "Chronic alcohol abuse, hepatitis, and fatty liver disease.",
+        "symptoms": [
+            "Fatigue",
+            "Easily bleeding or bruising",
+            "Loss of appetite",
+            "Jaundice"
+        ],
+        "prevention": "Limit alcohol, maintain a healthy weight, and protect against hepatitis.",
+        "treatment_action": "Treating the underlying cause and managing symptoms.",
+        "complications": "Liver failure and liver cancer.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Lung Cancer",
+        "description": "Cancer that begins in the lungs.",
+        "causes": "Smoking, secondhand smoke, and exposure to carcinogens.",
+        "symptoms": [
+            "A new cough that doesn't go away",
+            "Coughing up blood",
+            "Shortness of breath",
+            "Chest pain"
+        ],
+        "prevention": "Don't smoke and avoid secondhand smoke.",
+        "treatment_action": "Surgery, chemotherapy, radiation therapy, and immunotherapy.",
+        "complications": "Fluid in the chest, spread to other organs, and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Lupus",
+        "description": "A systemic autoimmune disease that occurs when your body's immune system attacks your own tissues and organs.",
+        "causes": "Genetics and environmental triggers.",
+        "symptoms": [
+            "Fatigue",
+            "Fever",
+            "Joint pain",
+            "Butterfly-shaped rash on the face"
+        ],
+        "prevention": "No known way to prevent, but avoiding triggers can help.",
+        "treatment_action": "Medications to control symptoms and reduce flares.",
+        "complications": "Kidney damage, brain/CNS problems, and heart disease.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Lyme Disease",
+        "description": "A tick-borne illness caused by the bacterium Borrelia burgdorferi.",
+        "causes": "Bite of an infected black-legged tick.",
+        "symptoms": [
+            "Bull's-eye rash",
+            "Fever and chills",
+            "Fatigue",
+            "Body aches",
+            "Headache"
+        ],
+        "prevention": "Avoid tick-infested areas and use insect repellent.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Joint pain, neurological problems, and heart rhythm irregularities.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

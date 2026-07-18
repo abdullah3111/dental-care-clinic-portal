@@ -1,0 +1,248 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Cancer",
+        "description": "A large group of diseases that can start in almost any organ or tissue of the body when abnormal cells grow uncontrollably.",
+        "causes": "Genetic mutations, environmental factors (tobacco, radiation), and lifestyle choices.",
+        "symptoms": [
+            "Unexplained weight loss",
+            "Fatigue",
+            "Pain",
+            "Skin changes",
+            "Lumps or thickening"
+        ],
+        "prevention": "Avoid tobacco, maintain a healthy weight, protect skin from sun, and get regular screenings.",
+        "treatment_action": "Surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapy.",
+        "complications": "Spread to other organs (metastasis), pain, and organ failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Cataracts",
+        "description": "A clouding of the normally clear lens of your eye.",
+        "causes": "Aging, injury, or genetic disorders.",
+        "symptoms": [
+            "Clouded, blurred or dim vision",
+            "Increasing difficulty with vision at night",
+            "Sensitivity to light and glare",
+            "Seeing 'halos' around lights"
+        ],
+        "prevention": "Regular eye exams, quit smoking, and wear sunglasses.",
+        "treatment_action": "Surgery to replace the clouded lens with an artificial one.",
+        "complications": "Vision loss and blindness if left untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Celiac Disease",
+        "description": "An immune reaction to eating gluten, a protein found in wheat, barley and rye.",
+        "causes": "Genetic predisposition and ingestion of gluten.",
+        "symptoms": [
+            "Diarrhea",
+            "Fatigue",
+            "Weight loss",
+            "Bloating and gas",
+            "Abdominal pain"
+        ],
+        "prevention": "No known way to prevent, but managing diet is key.",
+        "treatment_action": "Strict, lifelong gluten-free diet.",
+        "complications": "Malnutrition, bone weakening, infertility, and neurological problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Cerebral Palsy",
+        "description": "A group of disorders that affect movement and muscle tone or posture.",
+        "causes": "Abnormal brain development or damage to the developing brain.",
+        "symptoms": [
+            "Variations in muscle tone",
+            "Stiff muscles and exaggerated reflexes (spasticity)",
+            "Lack of muscle coordination (ataxia)",
+            "Tremors or involuntary movements"
+        ],
+        "prevention": "Good prenatal care and vaccinations.",
+        "treatment_action": "Physical therapy, occupational therapy, speech therapy, and medications.",
+        "complications": "Muscle contracture, malnutrition, mental health conditions, and lung disease.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Chickenpox",
+        "description": "A highly contagious viral infection that causes an itchy, blister-like rash on the skin.",
+        "causes": "Varicella-zoster virus.",
+        "symptoms": [
+            "Itchy, red rash",
+            "Fluid-filled blisters",
+            "Fever",
+            "Loss of appetite",
+            "Headache"
+        ],
+        "prevention": "Chickenpox vaccine.",
+        "treatment_action": "Relieving symptoms with calamine lotion, cool baths, and acetaminophen.",
+        "complications": "Bacterial infections of the skin, pneumonia, and inflammation of the brain (encephalitis).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Chlamydia",
+        "description": "A common sexually transmitted infection (STI) caused by bacteria.",
+        "causes": "Chlamydia trachomatis bacteria.",
+        "symptoms": [
+            "Painful urination",
+            "Vaginal or penile discharge",
+            "Pain during intercourse (women)",
+            "Testicular pain (men)"
+        ],
+        "prevention": "Safe sex practices and regular STI testing.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Pelvic inflammatory disease (PID), infertility, and ectopic pregnancy.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Cholera",
+        "description": "An acute diarrheal infection caused by ingestion of contaminated food or water.",
+        "causes": "Vibrio cholerae bacteria.",
+        "symptoms": [
+            "Profuse watery diarrhea",
+            "Vomiting",
+            "Rapid heart rate",
+            "Muscle cramps"
+        ],
+        "prevention": "Drink safe water, wash hands, and practice good sanitation.",
+        "treatment_action": "Oral rehydration solution (ORS) and antibiotics in severe cases.",
+        "complications": "Severe dehydration and death within hours if untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "description": "A chronic inflammatory lung disease that causes obstructed airflow from the lungs.",
+        "causes": "Long-term exposure to irritating gases or particulate matter, most often from cigarette smoke.",
+        "symptoms": [
+            "Shortness of breath",
+            "Wheezing",
+            "Chest tightness",
+            "Chronic cough with mucus"
+        ],
+        "prevention": "Don't smoke and avoid exposure to air pollutants.",
+        "treatment_action": "Inhalers, oxygen therapy, and pulmonary rehabilitation.",
+        "complications": "Respiratory infections, heart problems, lung cancer, and depression.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "Cirrhosis",
+        "description": "Late-stage scarring (fibrosis) of the liver caused by many forms of liver diseases and conditions.",
+        "causes": "Chronic alcohol abuse, hepatitis, and fatty liver disease.",
+        "symptoms": [
+            "Fatigue",
+            "Easily bleeding or bruising",
+            "Loss of appetite",
+            "Nausea",
+            "Swelling in legs or abdomen"
+        ],
+        "prevention": "Limit alcohol, maintain a healthy weight, and protect against hepatitis.",
+        "treatment_action": "Treating the underlying cause and managing complications.",
+        "complications": "Liver failure, liver cancer, and portal hypertension.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Common Cold",
+        "description": "A viral infection of your nose and throat.",
+        "causes": "Rhinoviruses and other viruses.",
+        "symptoms": [
+            "Runny or stuffy nose",
+            "Sore throat",
+            "Cough",
+            "Congestion",
+            "Mild headache"
+        ],
+        "prevention": "Wash hands, avoid touching face, and stay away from sick people.",
+        "treatment_action": "Rest, fluids, and over-the-counter cold medicines.",
+        "complications": "Ear infection, asthma attacks, and sinusitis.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 11,
+        "disease_name": "Conjunctivitis (Pink Eye)",
+        "description": "An inflammation or infection of the transparent membrane that lines your eyelid and covers the white part of your eyeball.",
+        "causes": "Viruses, bacteria, or allergies.",
+        "symptoms": [
+            "Redness in one or both eyes",
+            "Itchiness",
+            "A gritty feeling",
+            "Discharge that forms a crust during the night"
+        ],
+        "prevention": "Wash hands often and don't share personal items like towels or eye makeup.",
+        "treatment_action": "Antibiotic eye drops (for bacterial) or allergy medications.",
+        "complications": "Inflammation in the cornea that can affect vision.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 12,
+        "disease_name": "Crohn's Disease",
+        "description": "A type of inflammatory bowel disease (IBD) that causes inflammation of your digestive tract.",
+        "causes": "Immune system malfunction and genetics.",
+        "symptoms": [
+            "Diarrhea",
+            "Abdominal pain and cramping",
+            "Blood in your stool",
+            "Fatigue",
+            "Weight loss"
+        ],
+        "prevention": "No known way to prevent, but managing stress and diet can help.",
+        "treatment_action": "Anti-inflammatory drugs, immune system suppressors, and surgery.",
+        "complications": "Bowel obstruction, ulcers, fistulas, and malnutrition.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 13,
+        "disease_name": "Cushing Syndrome",
+        "description": "A condition that occurs from exposure to high cortisol levels for a long time.",
+        "causes": "Overuse of steroid medications or overproduction of cortisol by the adrenal glands.",
+        "symptoms": [
+            "A fatty hump between shoulders",
+            "A rounded face",
+            "Pink or purple stretch marks",
+            "High blood pressure"
+        ],
+        "prevention": "Use steroid medications only as prescribed and at the lowest effective dose.",
+        "treatment_action": "Reducing steroid use, surgery, radiation, or medications.",
+        "complications": "Bone loss (osteoporosis), high blood pressure, and type 2 diabetes.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 14,
+        "disease_name": "Cystic Fibrosis",
+        "description": "An inherited disorder that causes severe damage to the lungs, digestive system and other organs.",
+        "causes": "Genetic mutation.",
+        "symptoms": [
+            "Persistent cough with thick mucus",
+            "Wheezing",
+            "Exercise intolerance",
+            "Repeated lung infections"
+        ],
+        "prevention": "Genetic screening for prospective parents.",
+        "treatment_action": "Medications, chest physical therapy, and pulmonary rehabilitation.",
+        "complications": "Chronic respiratory failure, diabetes, and liver disease.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 15,
+        "disease_name": "Cystitis",
+        "description": "Inflammation of the bladder, usually caused by a urinary tract infection (UTI).",
+        "causes": "Bacterial infection.",
+        "symptoms": [
+            "Strong, persistent urge to urinate",
+            "Burning sensation when urinating",
+            "Cloudy or strong-smelling urine",
+            "Pelvic discomfort"
+        ],
+        "prevention": "Drink plenty of water and practice good hygiene.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Kidney infection (pyelonephritis).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

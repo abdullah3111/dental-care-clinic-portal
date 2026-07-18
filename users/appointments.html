@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Appointments - Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user-profile.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="../home.html" class="logo">
+                <img src="../assets/images/Clinic-logo.png" alt="Hospital Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Profile</a>
+                <a href="appointments.html" class="nav-link active">My Appointments</a>
+                <a href="medical-records.html" class="nav-link">Medical Records</a>
+                <a href="prescriptions.html" class="nav-link">Prescriptions</a>
+                <a href="health-reports.html" class="nav-link">Health Reports</a>
+                <a href="../home.html" class="nav-link logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-layout">
+            <aside class="sidebar">
+                <div class="user-card">
+                    <div class="avatar">
+                        <img src="../assets/images/doc1.jpg" alt="User Avatar" style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
+                    </div>
+                    <h3 class="user-name">John Doe</h3>
+                    <p class="user-rank">Premium Patient</p>
+                </div>
+                <div class="user-stats">
+                    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Appointments</div></div>
+                    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Doctors</div></div>
+                    <div class="stat"><div class="stat-num">2</div><div class="stat-label">Years</div></div>
+                </div>
+                <nav class="side-menu">
+                    <a href="index.html" class="menu-item"><i class="fas fa-user"></i> My Profile</a>
+                    <a href="appointments.html" class="menu-item active"><i class="fas fa-calendar-check"></i> Appointments <span class="badge">2</span></a>
+                    <a href="medical-records.html" class="menu-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                    <a href="prescriptions.html" class="menu-item"><i class="fas fa-pills"></i> Prescriptions</a>
+                    <a href="health-reports.html" class="menu-item"><i class="fas fa-chart-line"></i> Health Reports</a>
+                    <div class="menu-divider"></div>
+                    <a href="../home.html" class="menu-item"><i class="fas fa-home"></i> Back to Home</a>
+                    <a href="../home.html" class="menu-item" style="color:#FF3B30"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </nav>
+            </aside>
+
+            <main class="main-content">
+                <h2 class="section-title"><i class="fas fa-calendar-check"></i> My Appointments</h2>
+                
+                <!-- Upcoming Appointments -->
+                <div class="appointment-card">
+                    <div class="appointment-header">
+                        <span class="appointment-num">Upcoming Appointment</span>
+                        <span class="appointment-status status-confirmed">Confirmed</span>
+                    </div>
+                    <div class="appointment-info">
+                        <span><i class="fas fa-user-md"></i>Dr. Ahmed Hassan - Cardiologist</span>
+                        <span><i class="fas fa-calendar"></i>February 15, 2026 - 10:00 AM</span>
+                        <span><i class="fas fa-map-marker-alt"></i>Room 205, Cardiology Wing</span>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn-track"><i class="fas fa-edit"></i> Reschedule</button>
+                        <button class="btn-track" style="background:#FF3B30;border-color:#FF3B30"><i class="fas fa-times"></i> Cancel</button>
+                    </div>
+                </div>
+
+                <div class="appointment-card">
+                    <div class="appointment-header">
+                        <span class="appointment-num">Upcoming Appointment</span>
+                        <span class="appointment-status status-confirmed">Confirmed</span>
+                    </div>
+                    <div class="appointment-info">
+                        <span><i class="fas fa-user-md"></i>Dr. Sarah Khan - Neurologist</span>
+                        <span><i class="fas fa-calendar"></i>February 18, 2026 - 2:30 PM</span>
+                        <span><i class="fas fa-map-marker-alt"></i>Room 301, Neurology Wing</span>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn-track"><i class="fas fa-edit"></i> Reschedule</button>
+                        <button class="btn-track" style="background:#FF3B30;border-color:#FF3B30"><i class="fas fa-times"></i> Cancel</button>
+                    </div>
+                </div>
+
+                <!-- Previous Appointments -->
+                <h3 style="margin: 30px 0 15px 0; color: #888; font-size: 0.9rem; text-transform: uppercase;">Previous Appointments</h3>
+                
+                <div class="appointment-card">
+                    <div class="appointment-header">
+                        <span class="appointment-num">Previous Appointment</span>
+                        <span class="appointment-status status-delivered">Completed</span>
+                    </div>
+                    <div class="appointment-info">
+                        <span><i class="fas fa-user-md"></i>Dr. Sarah Khan - Neurologist</span>
+                        <span><i class="fas fa-calendar"></i>January 28, 2026 - 2:30 PM</span>
+                        <span><i class="fas fa-map-marker-alt"></i>Room 301, Neurology Wing</span>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn-track"><i class="fas fa-file-medical"></i> View Report</button>
+                        <button class="btn-track"><i class="fas fa-redo"></i> Book Again</button>
+                    </div>
+                </div>
+
+                <div class="appointment-card">
+                    <div class="appointment-header">
+                        <span class="appointment-num">Previous Appointment</span>
+                        <span class="appointment-status status-delivered">Completed</span>
+                    </div>
+                    <div class="appointment-info">
+                        <span><i class="fas fa-user-md"></i>Dr. Hassan Ali - Dermatologist</span>
+                        <span><i class="fas fa-calendar"></i>January 12, 2026 - 11:15 AM</span>
+                        <span><i class="fas fa-map-marker-alt"></i>Room 102, Dermatology Wing</span>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn-track"><i class="fas fa-file-medical"></i> View Report</button>
+                        <button class="btn-track"><i class="fas fa-redo"></i> Book Again</button>
+                    </div>
+                </div>
+
+                <div class="appointment-card">
+                    <div class="appointment-header">
+                        <span class="appointment-num">Previous Appointment</span>
+                        <span class="appointment-status status-delivered">Completed</span>
+                    </div>
+                    <div class="appointment-info">
+                        <span><i class="fas fa-user-md"></i>Dr. Ahmed Hassan - Cardiologist</span>
+                        <span><i class="fas fa-calendar"></i>January 05, 2026 - 9:00 AM</span>
+                        <span><i class="fas fa-map-marker-alt"></i>Room 205, Cardiology Wing</span>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn-track"><i class="fas fa-file-medical"></i> View Report</button>
+                        <button class="btn-track"><i class="fas fa-redo"></i> Book Again</button>
+                    </div>
+                </div>
+
+                <!-- Cancelled Appointment -->
+                <div class="appointment-card">
+                    <div class="appointment-header">
+                        <span class="appointment-num">Cancelled Appointment</span>
+                        <span class="appointment-status status-cancelled">Cancelled</span>
+                    </div>
+                    <div class="appointment-info">
+                        <span><i class="fas fa-user-md"></i>Dr. Maria Rodriguez - Pediatrician</span>
+                        <span><i class="fas fa-calendar"></i>December 20, 2025 - 3:00 PM</span>
+                        <span><i class="fas fa-map-marker-alt"></i>Room 150, Pediatrics Wing</span>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn-track"><i class="fas fa-redo"></i> Book Again</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="user-profile.js"></script>
+</body>
+</html>

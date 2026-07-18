@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Narcolepsy",
+        "description": "A chronic sleep disorder characterized by overwhelming daytime drowsiness and sudden attacks of sleep.",
+        "causes": "Loss of the chemical hypocretin in the brain.",
+        "symptoms": [
+            "Excessive daytime sleepiness",
+            "Sudden loss of muscle tone (cataplexy)",
+            "Sleep paralysis",
+            "Hallucinations"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Stimulants, antidepressants, and lifestyle changes.",
+        "complications": "Physical harm from sleep attacks and social challenges.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Nephrotic Syndrome",
+        "description": "A kidney disorder that causes your body to pass too much protein in your urine.",
+        "causes": "Damage to the clusters of small blood vessels in your kidneys that filter waste and excess water from your blood.",
+        "symptoms": [
+            "Severe swelling (edema), particularly around your eyes and in your ankles and feet",
+            "Foamy urine",
+            "Weight gain due to fluid retention",
+            "Fatigue"
+        ],
+        "prevention": "Treating underlying conditions that can cause it, like diabetes.",
+        "treatment_action": "Medications to treat the underlying cause and manage symptoms (diuretics, blood pressure meds).",
+        "complications": "Blood clots, high cholesterol, and kidney failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Neurofibromatosis",
+        "description": "A genetic disorder that causes tumors to form on nerve tissue.",
+        "causes": "Genetic mutations.",
+        "symptoms": [
+            "Flat, light brown spots on the skin (cafe au lait spots)",
+            "Freckling in the armpits or groin area",
+            "Soft bumps on or under the skin (neurofibromas)",
+            "Bone deformities"
+        ],
+        "prevention": "Genetic counseling for those with a family history.",
+        "treatment_action": "Monitoring, surgery, or radiation therapy.",
+        "complications": "Neurological problems, vision/hearing loss, and severe pain.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Norovirus Infection",
+        "description": "A very contagious virus that causes vomiting and diarrhea.",
+        "causes": "Contact with an infected person or contaminated food/water.",
+        "symptoms": [
+            "Diarrhea",
+            "Vomiting",
+            "Nausea",
+            "Stomach pain"
+        ],
+        "prevention": "Wash hands thoroughly and practice good food hygiene.",
+        "treatment_action": "Drinking plenty of fluids to prevent dehydration.",
+        "complications": "Severe dehydration.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

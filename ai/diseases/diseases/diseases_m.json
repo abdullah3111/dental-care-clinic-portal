@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Malaria",
+        "description": "A life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes.",
+        "causes": "Plasmodium parasites.",
+        "symptoms": [
+            "Fever",
+            "Chills",
+            "Headache",
+            "Nausea and vomiting",
+            "Muscle pain and fatigue"
+        ],
+        "prevention": "Prevent mosquito bites and take antimalarial medications.",
+        "treatment_action": "Prescription drugs to kill the parasite.",
+        "complications": "Cerebral malaria, breathing problems, and organ failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Measles",
+        "description": "A highly contagious viral infection that is serious for small children but is easily preventable by a vaccine.",
+        "causes": "Measles virus.",
+        "symptoms": [
+            "Fever",
+            "Dry cough",
+            "Runny nose",
+            "Sore throat",
+            "Inflamed eyes",
+            "Tiny white spots inside the mouth",
+            "Skin rash"
+        ],
+        "prevention": "MMR vaccine.",
+        "treatment_action": "Rest, fluids, and fever reducers. No specific antiviral treatment.",
+        "complications": "Ear infection, pneumonia, and encephalitis.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Meningitis",
+        "description": "An inflammation of the fluid and membranes (meninges) surrounding your brain and spinal cord.",
+        "causes": "Viral, bacterial, or fungal infections.",
+        "symptoms": [
+            "Sudden high fever",
+            "Stiff neck",
+            "Severe headache",
+            "Nausea or vomiting",
+            "Confusion"
+        ],
+        "prevention": "Vaccinations and good hygiene.",
+        "treatment_action": "Antibiotics (for bacterial) or supportive care (for viral).",
+        "complications": "Hearing loss, memory difficulty, and brain damage.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Migraine",
+        "description": "A headache that can cause severe throbbing pain or a pulsing sensation, usually on one side of the head.",
+        "causes": "Genetics and environmental factors.",
+        "symptoms": [
+            "Severe throbbing pain",
+            "Nausea and vomiting",
+            "Sensitivity to light and sound",
+            "Blurred vision"
+        ],
+        "prevention": "Identify and avoid triggers.",
+        "treatment_action": "Pain-relieving and preventive medications.",
+        "complications": "Chronic migraine and medication-overuse headaches.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Multiple Sclerosis",
+        "description": "A potentially disabling disease of the brain and spinal cord (central nervous system).",
+        "causes": "Autoimmune reaction where the immune system attacks the protective sheath (myelin) that covers nerve fibers.",
+        "symptoms": [
+            "Numbness or weakness in limbs",
+            "Electric-shock sensations",
+            "Tremor",
+            "Vision problems"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Corticosteroids and disease-modifying therapies.",
+        "complications": "Muscle stiffness or spasms, paralysis, and mental changes.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Mumps",
+        "description": "A viral infection that primarily affects the parotid glands — one of three pairs of saliva-producing (salivary) glands.",
+        "causes": "Mumps virus.",
+        "symptoms": [
+            "Swollen, painful salivary glands",
+            "Fever",
+            "Headache",
+            "Muscle aches",
+            "Loss of appetite"
+        ],
+        "prevention": "MMR vaccine.",
+        "treatment_action": "Supportive care (rest, fluids, pain relievers).",
+        "complications": "Inflammation of the testicles (orchitis), brain (encephalitis), and ovaries.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Myasthenia Gravis",
+        "description": "A chronic autoimmune neuromuscular disease that causes weakness in the skeletal muscles.",
+        "causes": "Breakdown in the normal communication between nerves and muscles.",
+        "symptoms": [
+            "Drooping of one or both eyelids",
+            "Blurred or double vision",
+            "Difficulty swallowing",
+            "Shortness of breath",
+            "Weakness in arms and legs"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Medications (cholinesterase inhibitors, corticosteroids) and sometimes surgery.",
+        "complications": "Myasthenic crisis (life-threatening breathing problems).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

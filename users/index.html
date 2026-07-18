@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user-profile.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="../home.html" class="logo">
+                <img src="../assets/images/Clinic-logo.png" alt="Hospital Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Profile</a>
+                <a href="appointments.html" class="nav-link">My Appointments</a>
+                <a href="medical-records.html" class="nav-link">Medical Records</a>
+                <a href="prescriptions.html" class="nav-link">Prescriptions</a>
+                <a href="health-reports.html" class="nav-link">Health Reports</a>
+                <a href="../home.html" class="nav-link logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-layout">
+            <aside class="sidebar">
+                <div class="user-card">
+                    <div class="avatar">
+                        <img src="../assets/images/doc1.jpg" alt="User Avatar" style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
+                    </div>
+                    <h3 class="user-name">John Doe</h3>
+                    <p class="user-rank">Premium Patient</p>
+                </div>
+                <div class="user-stats">
+                    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Appointments</div></div>
+                    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Doctors</div></div>
+                    <div class="stat"><div class="stat-num">2</div><div class="stat-label">Years</div></div>
+                </div>
+                <nav class="side-menu">
+                    <a href="#" class="menu-item active" data-tab="profile"><i class="fas fa-user"></i> My Profile</a>
+                    <a href="appointments.html" class="menu-item"><i class="fas fa-calendar-check"></i> Appointments <span class="badge">2</span></a>
+                    <a href="medical-records.html" class="menu-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                    <a href="prescriptions.html" class="menu-item"><i class="fas fa-pills"></i> Prescriptions</a>
+                    <a href="health-reports.html" class="menu-item"><i class="fas fa-chart-line"></i> Health Reports</a>
+                    <div class="menu-divider"></div>
+                    <a href="#" class="menu-item" data-tab="security"><i class="fas fa-lock"></i> Security</a>
+                    <a href="../home.html" class="menu-item"><i class="fas fa-home"></i> Back to Home</a>
+                    <a href="../home.html" class="menu-item" style="color:#FF3B30"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </nav>
+            </aside>
+
+            <main class="main-content">
+                <!-- Profile Tab -->
+                <div class="tab-content active" id="profile">
+                    <h2 class="section-title"><i class="fas fa-user-circle"></i> Personal Information</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Full Name <i class="fas fa-edit edit-icon" onclick="toggleEdit('name')"></i></label>
+                            <div class="form-value" id="val_name">John Doe</div>
+                            <div class="edit-form" id="edit_name">
+                                <input type="text" name="name" class="form-input" value="John Doe">
+                                <div class="btn-row">
+                                    <button type="button" class="btn btn-primary" onclick="saveField('name')">Save</button>
+                                    <button type="button" class="btn btn-secondary" onclick="toggleEdit('name')">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <div class="form-value">john.doe@email.com</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone <i class="fas fa-edit edit-icon" onclick="toggleEdit('phone')"></i></label>
+                            <div class="form-value" id="val_phone">+92 300 1234567</div>
+                            <div class="edit-form" id="edit_phone">
+                                <input type="tel" name="phone" class="form-input" value="+92 300 1234567">
+                                <div class="btn-row">
+                                    <button type="button" class="btn btn-primary" onclick="saveField('phone')">Save</button>
+                                    <button type="button" class="btn btn-secondary" onclick="toggleEdit('phone')">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Date of Birth <i class="fas fa-edit edit-icon" onclick="toggleEdit('dob')"></i></label>
+                            <div class="form-value" id="val_dob">May 15, 1990</div>
+                            <div class="edit-form" id="edit_dob">
+                                <input type="date" name="dob" class="form-input" value="1990-05-15">
+                                <div class="btn-row">
+                                    <button type="button" class="btn btn-primary" onclick="saveField('dob')">Save</button>
+                                    <button type="button" class="btn btn-secondary" onclick="toggleEdit('dob')">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Blood Group <i class="fas fa-edit edit-icon" onclick="toggleEdit('blood')"></i></label>
+                            <div class="form-value" id="val_blood">A+</div>
+                            <div class="edit-form" id="edit_blood">
+                                <select name="blood" class="form-input">
+                                    <option value="A+" selected>A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                </select>
+                                <div class="btn-row">
+                                    <button type="button" class="btn btn-primary" onclick="saveField('blood')">Save</button>
+                                    <button type="button" class="btn btn-secondary" onclick="toggleEdit('blood')">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">City <i class="fas fa-edit edit-icon" onclick="toggleEdit('city')"></i></label>
+                            <div class="form-value" id="val_city">Karachi</div>
+                            <div class="edit-form" id="edit_city">
+                                <input type="text" name="city" class="form-input" value="Karachi">
+                                <div class="btn-row">
+                                    <button type="button" class="btn btn-primary" onclick="saveField('city')">Save</button>
+                                    <button type="button" class="btn btn-secondary" onclick="toggleEdit('city')">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group full">
+                            <label class="form-label">Address <i class="fas fa-edit edit-icon" onclick="toggleEdit('address')"></i></label>
+                            <div class="form-value" id="val_address">123 Main Street, Block A, Gulshan-e-Iqbal</div>
+                            <div class="edit-form" id="edit_address">
+                                <textarea name="address" class="form-input" rows="2">123 Main Street, Block A, Gulshan-e-Iqbal</textarea>
+                                <div class="btn-row">
+                                    <button type="button" class="btn btn-primary" onclick="saveField('address')">Save</button>
+                                    <button type="button" class="btn btn-secondary" onclick="toggleEdit('address')">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Patient Since</label>
+                            <div class="form-value">January 15, 2024</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appointments Tab -->
+                <div class="tab-content" id="appointments">
+                    <h2 class="section-title"><i class="fas fa-calendar-check"></i> My Appointments</h2>
+                    <div class="appointment-card">
+                        <div class="appointment-header">
+                            <span class="appointment-num">Upcoming Appointment</span>
+                            <span class="appointment-status status-confirmed">Confirmed</span>
+                        </div>
+                        <div class="appointment-info">
+                            <span><i class="fas fa-user-md"></i>Dr. Ahmed Hassan - Cardiologist</span>
+                            <span><i class="fas fa-calendar"></i>February 15, 2026 - 10:00 AM</span>
+                            <span><i class="fas fa-map-marker-alt"></i>Room 205, Cardiology Wing</span>
+                        </div>
+                        <div class="appointment-actions">
+                            <button class="btn-track"><i class="fas fa-edit"></i> Reschedule</button>
+                            <button class="btn-track" style="background:#FF3B30;border-color:#FF3B30"><i class="fas fa-times"></i> Cancel</button>
+                        </div>
+                    </div>
+
+                    <div class="appointment-card">
+                        <div class="appointment-header">
+                            <span class="appointment-num">Previous Appointment</span>
+                            <span class="appointment-status status-delivered">Completed</span>
+                        </div>
+                        <div class="appointment-info">
+                            <span><i class="fas fa-user-md"></i>Dr. Sarah Khan - Neurologist</span>
+                            <span><i class="fas fa-calendar"></i>January 28, 2026 - 2:30 PM</span>
+                            <span><i class="fas fa-map-marker-alt"></i>Room 301, Neurology Wing</span>
+                        </div>
+                        <div class="appointment-actions">
+                            <button class="btn-track"><i class="fas fa-file-medical"></i> View Report</button>
+                            <button class="btn-track"><i class="fas fa-redo"></i> Book Again</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Records Tab -->
+                <div class="tab-content" id="medical">
+                    <h2 class="section-title"><i class="fas fa-file-medical"></i> Medical Records</h2>
+                    <div class="medical-grid">
+                        <div class="medical-card">
+                            <div class="medical-header">
+                                <i class="fas fa-heartbeat"></i>
+                                <h4>Vital Signs</h4>
+                            </div>
+                            <div class="medical-content">
+                                <div class="vital-item">
+                                    <span class="vital-label">Blood Pressure</span>
+                                    <span class="vital-value">120/80 mmHg</span>
+                                </div>
+                                <div class="vital-item">
+                                    <span class="vital-label">Heart Rate</span>
+                                    <span class="vital-value">72 bpm</span>
+                                </div>
+                                <div class="vital-item">
+                                    <span class="vital-label">Temperature</span>
+                                    <span class="vital-value">98.6°F</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="medical-card">
+                            <div class="medical-header">
+                                <i class="fas fa-allergies"></i>
+                                <h4>Allergies</h4>
+                            </div>
+                            <div class="medical-content">
+                                <div class="allergy-tags">
+                                    <span class="allergy-tag">Peanuts</span>
+                                    <span class="allergy-tag">Dust</span>
+                                    <span class="allergy-tag">Pollen</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Tab -->
+                <div class="tab-content" id="security">
+                    <h2 class="section-title"><i class="fas fa-lock"></i> Change Password</h2>
+                    <div class="form-group">
+                        <label class="form-label">Current Password</label>
+                        <input type="password" name="current_password" class="form-input" required>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">New Password</label>
+                            <input type="password" name="new_password" class="form-input" minlength="6" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Confirm Password</label>
+                            <input type="password" name="confirm_password" class="form-input" minlength="6" required>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="changePassword()">
+                        <i class="fas fa-key"></i> Update Password
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="user-profile.js"></script>
+</body>
+</html>

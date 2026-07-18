@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Yellow Fever",
+        "description": "A viral infection spread by a particular type of mosquito.",
+        "causes": "Yellow fever virus.",
+        "symptoms": [
+            "Fever",
+            "Headache",
+            "Muscle aches",
+            "Nausea and vomiting",
+            "Jaundice"
+        ],
+        "prevention": "Yellow fever vaccine and mosquito protection.",
+        "treatment_action": "Supportive care (fluids, pain relievers).",
+        "complications": "Liver and kidney failure, and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Yeast Infection (Candidiasis)",
+        "description": "A fungal infection caused by an overgrowth of Candida yeast.",
+        "causes": "Overgrowth of Candida fungus, often due to antibiotics, diabetes, or weakened immunity.",
+        "symptoms": [
+            "Itching and irritation",
+            "Thick, white discharge",
+            "Burning during urination",
+            "Pain during intercourse",
+            "Redness and swelling"
+        ],
+        "prevention": "Wear breathable clothing, avoid douching, maintain good hygiene.",
+        "treatment_action": "Antifungal medications (creams, tablets, or suppositories).",
+        "complications": "Recurrent infections, spread to other body parts.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Yersiniosis",
+        "description": "A bacterial infection caused by Yersinia bacteria, often from contaminated food.",
+        "causes": "Eating contaminated pork, unpasteurized milk, or contaminated water.",
+        "symptoms": [
+            "Diarrhea (often bloody)",
+            "Abdominal pain",
+            "Fever",
+            "Nausea and vomiting",
+            "Joint pain"
+        ],
+        "prevention": "Cook pork thoroughly, avoid unpasteurized dairy, practice good hygiene.",
+        "treatment_action": "Usually self-limiting, antibiotics for severe cases.",
+        "complications": "Reactive arthritis, septicemia in immunocompromised patients.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Young-Onset Parkinson's Disease",
+        "description": "Parkinson's disease that develops before age 50.",
+        "causes": "Genetic factors, environmental toxins, brain injury.",
+        "symptoms": [
+            "Tremor at rest",
+            "Muscle stiffness",
+            "Slow movement",
+            "Balance problems",
+            "Changes in speech and writing"
+        ],
+        "prevention": "No known prevention, but exercise may be protective.",
+        "treatment_action": "Medications (levodopa, dopamine agonists), physical therapy.",
+        "complications": "Progressive disability, depression, cognitive changes.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Yellow Nail Syndrome",
+        "description": "A rare condition characterized by yellow, thickened nails and respiratory problems.",
+        "causes": "Unknown, possibly related to lymphatic system problems.",
+        "symptoms": [
+            "Yellow, thickened nails",
+            "Slow nail growth",
+            "Respiratory problems",
+            "Swelling in legs and arms",
+            "Chronic cough"
+        ],
+        "prevention": "No known prevention.",
+        "treatment_action": "Treat underlying respiratory conditions, nail care.",
+        "complications": "Chronic respiratory infections, nail deformities.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Yaws",
+        "description": "A tropical bacterial infection that affects the skin, bones, and joints.",
+        "causes": "Treponema pallidum bacteria, spread through skin contact.",
+        "symptoms": [
+            "Skin lesions and ulcers",
+            "Bone and joint pain",
+            "Fever",
+            "Swollen lymph nodes",
+            "Skin bumps and sores"
+        ],
+        "prevention": "Avoid contact with infected individuals, maintain good hygiene.",
+        "treatment_action": "Antibiotics (penicillin or azithromycin).",
+        "complications": "Bone deformities, skin scarring if untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Yoga-Related Injuries",
+        "description": "Injuries that can occur from improper yoga practice or overexertion.",
+        "causes": "Overstretching, improper alignment, pushing beyond limits.",
+        "symptoms": [
+            "Muscle strains",
+            "Joint pain",
+            "Back or neck pain",
+            "Wrist or shoulder injuries",
+            "Knee problems"
+        ],
+        "prevention": "Proper instruction, gradual progression, listen to your body.",
+        "treatment_action": "Rest, ice, physical therapy, modify practice.",
+        "complications": "Chronic pain, permanent injury if severe.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Yolk Sac Tumor",
+        "description": "A rare type of germ cell tumor that can occur in the ovaries or testicles.",
+        "causes": "Abnormal development of germ cells, genetic factors.",
+        "symptoms": [
+            "Abdominal or pelvic pain",
+            "Swelling or mass",
+            "Elevated tumor markers",
+            "Nausea and vomiting",
+            "Weight loss"
+        ],
+        "prevention": "No known prevention.",
+        "treatment_action": "Surgery, chemotherapy, radiation therapy.",
+        "complications": "Spread to other organs, treatment side effects.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "Yuppie Flu (Chronic Fatigue Syndrome)",
+        "description": "A complex disorder characterized by extreme fatigue that doesn't improve with rest.",
+        "causes": "Unknown, possibly viral infections, immune system problems, or stress.",
+        "symptoms": [
+            "Severe fatigue lasting 6+ months",
+            "Memory and concentration problems",
+            "Sore throat",
+            "Muscle and joint pain",
+            "Headaches"
+        ],
+        "prevention": "No known prevention, manage stress and maintain healthy lifestyle.",
+        "treatment_action": "Symptom management, graded exercise therapy, cognitive behavioral therapy.",
+        "complications": "Severe disability, depression, social isolation.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Yin Deficiency (Traditional Chinese Medicine)",
+        "description": "A concept in Traditional Chinese Medicine referring to insufficient cooling and moistening energy.",
+        "causes": "Chronic illness, stress, aging, poor diet, overwork.",
+        "symptoms": [
+            "Night sweats",
+            "Hot flashes",
+            "Dry mouth and throat",
+            "Insomnia",
+            "Irritability"
+        ],
+        "prevention": "Balanced lifestyle, adequate rest, proper nutrition.",
+        "treatment_action": "Herbal medicine, acupuncture, dietary therapy, lifestyle changes.",
+        "complications": "Chronic health problems if underlying causes not addressed.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

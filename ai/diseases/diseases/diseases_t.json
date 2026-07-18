@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Tetanus",
+        "description": "A serious disease caused by a bacterial toxin that affects your nervous system.",
+        "causes": "Clostridium tetani bacteria, often through a wound.",
+        "symptoms": [
+            "Jaw cramping (lockjaw)",
+            "Muscle spasms",
+            "Stiffness of the neck and abdomen",
+            "Difficulty swallowing"
+        ],
+        "prevention": "Tetanus vaccine.",
+        "treatment_action": "Wound care, antitoxins, and antibiotics.",
+        "complications": "Broken bones, pulmonary embolism, and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Tuberculosis (TB)",
+        "description": "A potentially serious infectious disease that mainly affects your lungs.",
+        "causes": "Mycobacterium tuberculosis bacteria.",
+        "symptoms": [
+            "Coughing for three or more weeks",
+            "Coughing up blood",
+            "Chest pain",
+            "Weight loss",
+            "Fatigue",
+            "Fever"
+        ],
+        "prevention": "Vaccination (BCG) and avoiding contact with infected individuals.",
+        "treatment_action": "Long-term course of antibiotics.",
+        "complications": "Spinal pain, joint damage, and meningitis.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Typhoid Fever",
+        "description": "A bacterial infection caused by Salmonella typhi.",
+        "causes": "Contaminated food or water.",
+        "symptoms": [
+            "High fever",
+            "Headache",
+            "Stomach pain",
+            "Diarrhea or constipation",
+            "Rash"
+        ],
+        "prevention": "Typhoid vaccine and good hygiene.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Intestinal bleeding or perforation.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

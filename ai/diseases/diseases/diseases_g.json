@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Gallstones",
+        "description": "Hardened deposits of digestive fluid that can form in your gallbladder.",
+        "causes": "Too much cholesterol or bilirubin in bile, or gallbladder not emptying correctly.",
+        "symptoms": [
+            "Sudden pain in the upper right abdomen",
+            "Pain in the center of the abdomen",
+            "Back pain between shoulder blades",
+            "Nausea or vomiting"
+        ],
+        "prevention": "Maintain a healthy weight, don't skip meals, and eat a high-fiber diet.",
+        "treatment_action": "Surgery to remove the gallbladder or medications to dissolve stones.",
+        "complications": "Inflammation of the gallbladder (cholecystitis), blockage of the bile duct, and pancreatitis.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Gastritis",
+        "description": "A group of conditions with one thing in common: inflammation of the lining of the stomach.",
+        "causes": "H. pylori infection, regular use of pain relievers, and excessive alcohol use.",
+        "symptoms": [
+            "Gnawing or burning ache or pain in the upper abdomen",
+            "Nausea and vomiting",
+            "A feeling of fullness in the upper abdomen after eating"
+        ],
+        "prevention": "Avoid irritants like alcohol and NSAIDs, and practice good hygiene to avoid H. pylori.",
+        "treatment_action": "Antibiotics, proton pump inhibitors, and antacids.",
+        "complications": "Stomach ulcers and stomach cancer.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Gastroenteritis (Stomach Flu)",
+        "description": "An inflammation of the lining of the intestines caused by a virus, bacteria, or parasites.",
+        "causes": "Viruses (Norovirus, Rotavirus) or contaminated food/water.",
+        "symptoms": [
+            "Watery diarrhea",
+            "Abdominal cramps",
+            "Nausea and vomiting",
+            "Low-grade fever"
+        ],
+        "prevention": "Wash hands thoroughly and avoid contaminated food/water.",
+        "treatment_action": "Fluids and rest.",
+        "complications": "Severe dehydration.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Glaucoma",
+        "description": "A group of eye conditions that damage the optic nerve, often due to high eye pressure.",
+        "causes": "Buildup of fluid pressure in the eye.",
+        "symptoms": [
+            "Patchy blind spots in peripheral vision",
+            "Tunnel vision",
+            "Severe headache",
+            "Eye pain",
+            "Blurred vision"
+        ],
+        "prevention": "Regular eye exams and managing eye pressure.",
+        "treatment_action": "Eye drops, laser treatment, and surgery.",
+        "complications": "Permanent vision loss and blindness.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Gout",
+        "description": "A complex form of arthritis characterized by sudden, severe attacks of pain, swelling, redness and tenderness in the joints.",
+        "causes": "High levels of uric acid in the blood.",
+        "symptoms": [
+            "Intense joint pain",
+            "Lingering discomfort",
+            "Inflammation and redness",
+            "Limited range of motion"
+        ],
+        "prevention": "Drink plenty of water, limit alcohol, and eat a balanced diet low in purines.",
+        "treatment_action": "Medications to treat attacks and prevent future flares.",
+        "complications": "Recurrent gout, advanced gout (tophi), and kidney stones.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Gonorrhea",
+        "description": "A sexually transmitted infection (STI) caused by bacteria.",
+        "causes": "Neisseria gonorrhoeae bacteria.",
+        "symptoms": [
+            "Painful urination",
+            "Pus-like discharge from the penis or vagina",
+            "Pain or swelling in one testicle",
+            "Pelvic pain (women)"
+        ],
+        "prevention": "Safe sex practices and regular STI testing.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Infertility, spread to joints and other areas, and increased risk of HIV.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Guillain-Barre Syndrome",
+        "description": "A rare disorder in which your body's immune system attacks your nerves.",
+        "causes": "Often preceded by an infectious illness such as a respiratory or digestive infection.",
+        "symptoms": [
+            "Prickling, pins and needles sensations",
+            "Weakness in legs that spreads to upper body",
+            "Unsteady walking",
+            "Difficulty with facial movements"
+        ],
+        "prevention": "No known way to prevent Guillain-Barre syndrome.",
+        "treatment_action": "Plasma exchange and immunoglobulin therapy.",
+        "complications": "Breathing difficulties, residual numbness, and heart/blood pressure problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

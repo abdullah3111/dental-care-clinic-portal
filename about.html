@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Pulse Care</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Navbar Specific Reset */
+        .header, .header * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Baloo Bhaijaan 2', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.8), rgba(6, 182, 212, 0.6), rgba(16, 185, 129, 0.4)), url('assets/images/about-header.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 60px 5%;
+            display: flex;
+            align-items: center;
+            height: 50vh;
+            min-height: 500px;
+        }
+
+        .hero-content {
+            max-width: 500px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .hero-content h1 {
+            font-size: 4.5rem;
+            color: white;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            font-weight: 700;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 8px;
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-top: 1rem;
+        }
+
+        .breadcrumb i {
+            font-size: 0.9rem;
+        }
+
+        .cta-button {
+            background: #5a7159;
+            color: white;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cta-button .material-icons {
+            font-size: 20px;
+        }
+
+        .cta-button:hover {
+            background: #4a6149;
+            transform: translateY(-2px);
+        }
+
+        .hero-image {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            justify-content: flex-end;
+            padding-right: 30px;
+        }
+
+        .doctor-image {
+            width: 260px;
+            height: 340px;
+            border-radius: 160px 160px 20px 20px;
+            object-fit: cover;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+            flex-shrink: 0;
+        }
+
+        .stats {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+
+        .stat-item {
+            text-align: left;
+        }
+
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #5a7159;
+        }
+
+        .stat-label {
+            color: #888;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        /* Partners Section */
+        .partners {
+            background: white;
+            padding: 40px 5%;
+            text-align: center;
+        }
+
+        .partners-title {
+            color: #999;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+
+        .partner-logos {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            flex-wrap: wrap;
+        }
+
+        .partner-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .logo-icon {
+            width: 35px;
+            height: 35px;
+            background: #5a7159;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .logo-icon .material-icons {
+            font-size: 22px;
+        }
+
+        /* About Section */
+        .about {
+            background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e0 100%);
+            padding: 80px 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-content h2 {
+            font-size: 2.5rem;
+            color: #2c3e2c;
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .vision-mission {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .vm-item h3 {
+            color: #2c3e2c;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .vm-item p {
+            color: #777;
+            font-size: 0.95rem;
+        }
+
+        .about-images {
+            display: flex;
+            gap: 20px;
+            align-items: stretch;
+        }
+
+        .about-img {
+            width: 100%;
+            height: 380px;
+            border-radius: 200px 200px 50px 50px;
+            object-fit: cover;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        }
+
+        .about-images > div {
+            flex: 1;
+        }
+
+        /* Services Section */
+        .services {
+            background: #2c3e2c;
+            padding: 80px 5%;
+            color: white;
+        }
+
+        .services-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .services-header p {
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .services-header h2 {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .service-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 50px 30px;
+            border-radius: 30px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: #5a7159;
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .service-icon .material-icons {
+            font-size: 42px;
+        }
+
+        .service-card h3 {
+            color: #2c3e2c;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .service-card p {
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+
+        .learn-more {
+            background: #5a7159;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .learn-more:hover {
+            background: #4a6149;
+        }
+
+        /* Treatment Section */
+        .treatment {
+            background: white;
+            padding: 80px 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .treatment-image img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+            object-fit: cover;
+        }
+
+        .treatment-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .treatment-content h2 {
+            font-size: 2.2rem;
+            color: #2c3e2c;
+            margin-bottom: 20px;
+        }
+
+        .treatment-content p {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .treatment-features {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: #e8f5e8;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #5a7159;
+            font-weight: bold;
+        }
+
+        .feature-icon .material-icons {
+            font-size: 24px;
+        }
+
+        .feature-text {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .hero, .about, .treatment {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .service-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-image {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .stats {
+                margin-left: 0;
+                margin-top: 30px;
+                width: 100%;
+            }
+
+            .about-images {
+                flex-direction: column;
+            }
+
+            .about-img {
+                height: 300px;
+            }
+
+            .vision-mission {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer Styles */
+        .footer {
+            background: #2c3e2c;
+            color: #fff;
+            padding: 60px 0 20px;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h3 {
+            color: #5a7159;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .footer-section p {
+            color: #bdc3c7;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section ul li a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .footer-section ul li a:hover {
+            color: #5a7159;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: #34495e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #5a7159;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .contact-item i {
+            color: #5a7159;
+            font-size: 1.1rem;
+            margin-top: 2px;
+        }
+
+        .contact-item p {
+            color: #bdc3c7;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #34495e;
+            color: #95a5a6;
+            font-size: 0.9rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Footer Responsive */
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+
+        /* Footer from home.html */
+        .footer {
+            background: linear-gradient(135deg, #2989d8, #4CAF50, #2989d8);
+            color: white;
+            margin-top: 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 3rem;
+            padding: 2rem 0 1.5rem;
+        }
+
+        .footer-column h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: white;
+            font-weight: 600;
+            position: relative;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 2px;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-logo img {
+            height: 60px;
+            width: auto;
+            max-width: 250px;
+        }
+
+        .footer-description {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .clinic-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            padding: 1rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .stat-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.3rem;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 0.8rem;
+        }
+
+        .social-link {
+            width: 38px;
+            height: 38px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .social-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-link i {
+            font-size: 1rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .links-col .footer-links {
+            margin: 0;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.6rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-links a:hover {
+            color: white;
+            padding-left: 6px;
+        }
+
+        .footer-links a::before {
+            content: '→';
+            margin-right: 6px;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links a:hover::before {
+            opacity: 1;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-item i {
+            font-size: 1rem;
+            color: white;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+        }
+
+        .contact-item div p {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 0.2rem;
+            font-size: 0.9rem;
+        }
+
+        .working-hours-compact {
+            margin-top: 1rem;
+        }
+
+        .working-hours-compact .hours-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.4rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.8rem;
+        }
+
+        .working-hours-compact .hours-item:last-of-type {
+            border-bottom: none;
+        }
+
+        .working-hours-compact .hours-item span:first-child {
+            font-weight: 500;
+        }
+
+        .working-hours-compact .hours-item span:last-child {
+            color: white;
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .working-hours-compact .emergency-note {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.8rem;
+            padding: 0.6rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            backdrop-filter: blur(10px);
+        }
+
+        .working-hours-compact .emergency-note i {
+            color: #ff6b6b;
+            font-size: 0.9rem;
+        }
+
+        .working-hours-compact .emergency-note span {
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 1.5rem 0;
+        }
+
+        .footer-bottom-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .copyright p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.85rem;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-bottom-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        .footer-bottom-links a:hover {
+            color: white;
+        }
+
+        /* Footer Mobile Responsive */
+        @media (max-width: 768px) {
+            .footer-top {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                padding: 2rem 0 1.5rem;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+            
+            .footer-column {
+                text-align: center;
+            }
+            
+            .footer-column h3::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .footer-social {
+                justify-content: center;
+            }
+            
+            .footer-bottom-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .footer-bottom-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Include Navbar -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="top-container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +92 21 1234 5678</span>
+                    <span><i class="fas fa-envelope"></i> info@hospital.com</span>
+                </div>
+                <div class="social-links-top">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo">
+                    <img src="assets/images/Clinic-logo.png" alt="Hospital Logo" class="logo-img">
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="home.html#services">Services</a></li>
+                    <li><a href="home.html#doctors">Doctors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="profile-icon">
+                    <i class="fas fa-user-circle"></i>
+                    <div class="profile-dropdown">
+                        <a href="users/index.html" class="hover-effect hover-dropdown-item"><i class="fas fa-user"></i> My Profile</a>
+                        <a href="users/appointments.html" class="hover-effect hover-dropdown-item"><i class="fas fa-calendar"></i> My Appointments</a>
+                        <a href="users/medical-records.html" class="hover-effect hover-dropdown-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                        <a href="#" class="hover-effect hover-dropdown-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>About Us</h1>
+            
+            <div class="breadcrumb">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+                <span>/</span>
+                <span>About Us</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <p class="partners-title">Our Trusted Partners</p>
+        <div class="partner-logos">
+            <div class="partner-logo">
+                <div class="logo-icon">
+                    <span class="material-icons">local_hospital</span>
+                </div>
+                <span>HealthCare Plus</span>
+            </div>
+            <div class="partner-logo">
+                <div class="logo-icon">
+                    <span class="material-icons">biotech</span>
+                </div>
+                <span>MediTech Solutions</span>
+            </div>
+            <div class="partner-logo">
+                <div class="logo-icon">
+                    <span class="material-icons">spa</span>
+                </div>
+                <span>Wellness Group</span>
+            </div>
+            <div class="partner-logo">
+                <div class="logo-icon">
+                    <span class="material-icons">health_and_safety</span>
+                </div>
+                <span>Care Network</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <p style="color: #999; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 10px;">ABOUT US</p>
+            <h2>We Are The Best<br>Healthcare Management System</h2>
+            <p>Our hospital management system revolutionizes the way healthcare facilities operate, providing seamless patient care, efficient appointment scheduling, and comprehensive medical record management.</p>
+            
+            <div class="vision-mission">
+                <div class="vm-item">
+                    <h3>Vision</h3>
+                    <p>To be the leading healthcare management platform, empowering hospitals to deliver exceptional patient care through innovative technology.</p>
+                </div>
+                <div class="vm-item">
+                    <h3>Mission</h3>
+                    <p>To streamline healthcare operations, enhance patient experiences, and support medical professionals with cutting-edge tools.</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-images">
+            <div>
+                <img class="about-img" src="assets/images/img1.jpg" alt="Hospital Interior">
+            </div>
+            <div>
+                <img class="about-img" src="assets/images/img2.jpg" alt="Medical Treatment">
+            </div>
+            <div>
+                <img class="about-img" src="assets/images/img3.jpg" alt="Patient Care">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="services-header">
+            <p>OUR SERVICES</p>
+            <h2>We Provide The Best Services</h2>
+        </div>
+        <div class="service-cards">
+            <div class="service-card">
+                <div class="service-icon">
+                    <span class="material-icons">assignment</span>
+                </div>
+                <h3>Patient Management</h3>
+                <p>Comprehensive patient registration, medical history tracking, and digital health records for seamless healthcare delivery.</p>
+                <button class="learn-more">LEARN MORE</button>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <span class="material-icons">event_available</span>
+                </div>
+                <h3>Appointment Scheduling</h3>
+                <p>Intelligent appointment booking system with automated reminders and real-time availability management for optimal efficiency.</p>
+                <button class="learn-more">LEARN MORE</button>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <span class="material-icons">payment</span>
+                </div>
+                <h3>Billing & Insurance</h3>
+                <p>Streamlined billing processes, insurance claim management, and comprehensive financial reporting for your hospital.</p>
+                <button class="learn-more">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatment Section -->
+    <section class="treatment">
+        <div class="treatment-image">
+            <img src="assets/images/womenimg.jpg" alt="Healthcare Professional">
+        </div>
+        <div class="treatment-content">
+            <p style="color: #999; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 10px;">WHY CHOOSE US</p>
+            <h2>Individually Tailored Treatment:<br>Your Path to Wellness</h2>
+            <p>Our hospital management system is designed to provide personalized care pathways for every patient, ensuring the highest quality of healthcare delivery.</p>
+            
+            <div class="treatment-features">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span class="material-icons">check_circle</span>
+                    </div>
+                    <div class="feature-text">Advanced Technology</div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span class="material-icons">check_circle</span>
+                    </div>
+                    <div class="feature-text">24/7 Support Services</div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span class="material-icons">check_circle</span>
+                    </div>
+                    <div class="feature-text">Secure Data Management</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="assets/images/Clinic-logo.png" alt="Hospital">
+                    </div>
+                    <p class="footer-description">
+                        Your trusted healthcare partner providing world-class medical services with compassion and expertise.
+                    </p>
+                    
+                    <div class="clinic-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1200+</span>
+                            <span class="stat-label">Happy Patients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Expert Doctors</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <div class="links-grid">
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="home.html#services">Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="home.html#doctors">Our Doctors</a></li>
+                                <li><a href="home.html#reviews">Reviews</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 1.5rem;">Medical Services</h3>
+                    <div class="links-grid">
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="#">Cardiology</a></li>
+                                <li><a href="#">Neurology</a></li>
+                                <li><a href="#">Orthopedics</a></li>
+                            </ul>
+                        </div>
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="#">Pediatrics</a></li>
+                                <li><a href="#">Dermatology</a></li>
+                                <li><a href="#">Emergency</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact & Hours</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>123 Healthcare Street, Medical District</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>+92 21 1234 5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p>info@hospital.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="working-hours-compact">
+                        <div class="hours-item">
+                            <span>Mon-Fri:</span>
+                            <span>8:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sat-Sun:</span>
+                            <span>9:00 AM - 8:00 PM</span>
+                        </div>
+                        <div class="emergency-note">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <span>24/7 Emergency Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p>&copy; 2026 Pulse Care. All rights reserved.</p>
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

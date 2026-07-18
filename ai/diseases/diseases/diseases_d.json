@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Dengue Fever",
+        "description": "A mosquito-borne viral disease that causes a severe flu-like illness.",
+        "causes": "Dengue virus transmitted by Aedes mosquitoes.",
+        "symptoms": [
+            "High fever",
+            "Severe headache",
+            "Pain behind the eyes",
+            "Muscle and joint pains",
+            "Rash"
+        ],
+        "prevention": "Prevent mosquito bites and eliminate breeding sites.",
+        "treatment_action": "Fluids, rest, and pain relievers (avoid aspirin).",
+        "complications": "Dengue hemorrhagic fever and shock syndrome.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Diabetes (Type 1)",
+        "description": "A chronic condition in which the pancreas produces little or no insulin.",
+        "causes": "Autoimmune reaction where the body attacks insulin-producing cells.",
+        "symptoms": [
+            "Increased thirst",
+            "Frequent urination",
+            "Extreme hunger",
+            "Unintended weight loss",
+            "Fatigue"
+        ],
+        "prevention": "No known way to prevent Type 1 diabetes.",
+        "treatment_action": "Insulin therapy and regular blood sugar monitoring.",
+        "complications": "Heart disease, nerve damage, kidney damage, and vision loss.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Diabetes (Type 2)",
+        "description": "A chronic condition that affects the way the body processes blood sugar (glucose).",
+        "causes": "Insulin resistance or insufficient insulin production, often linked to weight and inactivity.",
+        "symptoms": [
+            "Increased thirst",
+            "Frequent urination",
+            "Blurred vision",
+            "Slow-healing sores",
+            "Fatigue"
+        ],
+        "prevention": "Healthy diet, regular exercise, and weight management.",
+        "treatment_action": "Lifestyle changes, oral medications, and sometimes insulin.",
+        "complications": "Heart disease, stroke, kidney failure, and foot problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Diphtheria",
+        "description": "A serious bacterial infection that affects the mucous membranes of the throat and nose.",
+        "causes": "Corynebacterium diphtheriae bacteria.",
+        "symptoms": [
+            "A thick, gray membrane covering the throat and tonsils",
+            "Sore throat and hoarseness",
+            "Swollen glands in the neck",
+            "Difficulty breathing"
+        ],
+        "prevention": "Diphtheria vaccine (DTaP).",
+        "treatment_action": "Antitoxins and antibiotics.",
+        "complications": "Heart damage, nerve damage, and airway obstruction.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Down Syndrome",
+        "description": "A genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21.",
+        "causes": "Extra chromosome 21.",
+        "symptoms": [
+            "Flattened face",
+            "Small head",
+            "Short neck",
+            "Protruding tongue",
+            "Poor muscle tone"
+        ],
+        "prevention": "No known way to prevent, but prenatal screening is available.",
+        "treatment_action": "Early intervention programs, speech therapy, and physical therapy.",
+        "complications": "Heart defects, gastrointestinal defects, and sleep apnea.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Dysentery",
+        "description": "An infection of the intestines that causes diarrhea containing blood or mucus.",
+        "causes": "Bacteria (Shigella) or parasites (Amoeba).",
+        "symptoms": [
+            "Bloody diarrhea",
+            "Abdominal cramps",
+            "Nausea and vomiting",
+            "Fever"
+        ],
+        "prevention": "Wash hands, drink safe water, and practice good food hygiene.",
+        "treatment_action": "Fluids and antibiotics (for bacterial dysentery).",
+        "complications": "Dehydration, seizures, and kidney failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Dystonia",
+        "description": "A movement disorder in which your muscles contract involuntarily, causing repetitive or twisting movements.",
+        "causes": "Altered nerve cell communication in several areas of the brain.",
+        "symptoms": [
+            "Involuntary muscle contractions",
+            "Twisting or repetitive movements",
+            "Abnormal postures"
+        ],
+        "prevention": "No known way to prevent dystonia.",
+        "treatment_action": "Botox injections, medications, and physical therapy.",
+        "complications": "Physical disabilities, vision problems, and depression.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

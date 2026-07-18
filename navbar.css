@@ -1,0 +1,482 @@
+/* Header Styles - Completely Transparent Initially */
+.header {
+    background: none !important;
+    backdrop-filter: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    position: fixed !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 500 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Blue-Green Gradient Theme Colors */
+:root {
+    --hover-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --primary-gradient: linear-gradient(135deg, #3b82f6, #06b6d4, #10b981);
+    --blue-green-gradient: linear-gradient(135deg, #3b82f6, #06b6d4, #10b981);
+    --button-gradient: linear-gradient(135deg, #3b82f6, #06b6d4);
+    --accent-blue: #3b82f6;
+    --accent-cyan: #06b6d4;
+    --accent-green: #10b981;
+    --primary-blue: #3b82f6;
+    --primary-green: #10b981;
+}
+
+/* Header with background only on scroll */
+.header.scrolled {
+    background: #000000 !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Top Bar - Black Background for Social Links */
+.header .top-bar {
+    background: #000000 !important;
+    color: white !important;
+    padding: 6px 0 !important;
+    font-size: 0.8rem !important;
+    margin: 0 !important;
+    width: 100% !important;
+    border-bottom: none !important;
+}
+
+.header .top-container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 40px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.header .contact-info {
+    display: flex !important;
+    align-items: center !important;
+    gap: 2rem !important;
+}
+
+.header .contact-info span {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.4rem !important;
+    white-space: nowrap !important;
+}
+
+.header .contact-info i {
+    font-size: 0.7rem !important;
+}
+
+.header .social-links-top {
+    display: flex !important;
+    gap: 0.6rem !important;
+}
+
+.header .social-links-top a {
+    color: white !important;
+    font-size: 0.8rem !important;
+    transition: color 0.3s ease !important;
+    width: 24px !important;
+    height: 24px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    text-decoration: none !important;
+}
+
+/* Main Navigation - Completely Transparent */
+.header .navbar {
+    padding: 1rem 0 !important;
+    background: none !important;
+    backdrop-filter: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    position: relative !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Navbar with stronger background on scroll */
+.header.scrolled .navbar {
+    background: linear-gradient(90deg, #1e5799, #2989d8, #4CAF50) !important;
+}
+
+.nav-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.header .logo {
+    display: flex !important;
+    align-items: center !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Logo color when scrolled */
+.header.scrolled .logo {
+    color: white !important;
+    text-shadow: none !important;
+}
+
+.header .logo .logo-img {
+    height: 50px !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    object-fit: contain !important;
+}
+
+.header .logo i {
+    margin-right: 10px !important;
+    font-size: 2rem !important;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 600 !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Navigation links when scrolled */
+.header.scrolled .nav-menu a {
+    color: white !important;
+    text-shadow: none !important;
+}
+
+.header .profile-icon {
+    position: relative !important;
+    cursor: pointer !important;
+    display: block !important;
+}
+
+.header .profile-icon > i {
+    font-size: 2rem !important;
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+    display: block !important;
+}
+
+.header .profile-icon:hover > i {
+    color: var(--primary-blue) !important;
+    text-shadow: none !important;
+}
+
+/* Profile icon when scrolled */
+.header.scrolled .profile-icon > i {
+    color: white !important;
+    text-shadow: none !important;
+}
+
+.header.scrolled .profile-icon:hover > i {
+    color: var(--primary-blue) !important;
+    text-shadow: none !important;
+}
+
+.header .profile-dropdown {
+    position: absolute !important;
+    top: 100% !important;
+    right: 0 !important;
+    background: white !important;
+    border-radius: 8px !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+    min-width: 220px !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(-10px) !important;
+    transition: all 0.3s ease !important;
+    z-index: 1000 !important;
+    border: 1px solid #f0f0f0 !important;
+    overflow: hidden !important;
+}
+
+.header .profile-dropdown.active {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+}
+
+.profile-dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 15px 18px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #f8f9fa;
+    font-size: 0.95rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-dropdown a:last-child {
+    border-bottom: none;
+}
+
+.profile-dropdown i {
+    font-size: 1rem;
+    width: 18px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white !important;
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+/* Hamburger when scrolled */
+.header.scrolled .hamburger span {
+    background: #333 !important;
+    box-shadow: none !important;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Desktop - Default styles above 1024px */
+
+/* Tablet - 1024px and below */
+@media (max-width: 1024px) {
+    .header .top-bar {
+        padding: 5px 0 !important;
+    }
+    
+    .header .top-container {
+        padding: 0 20px !important;
+    }
+    
+    .header .contact-info {
+        gap: 1.5rem !important;
+    }
+    
+    .header .contact-info span {
+        font-size: 0.75rem !important;
+    }
+    
+    .header .social-links-top {
+        gap: 0.5rem !important;
+    }
+    
+    .header .social-links-top a {
+        width: 22px !important;
+        height: 22px !important;
+        font-size: 0.75rem !important;
+    }
+    
+    .nav-container {
+        padding: 0 20px !important;
+    }
+    
+    .nav-menu {
+        gap: 1.5rem !important;
+    }
+    
+    .nav-menu a {
+        font-size: 0.95rem !important;
+    }
+    
+    .header .logo {
+        font-size: 1.4rem !important;
+    }
+    
+    .header .logo i {
+        font-size: 1.8rem !important;
+    }
+    
+    .header .profile-icon > i {
+        font-size: 1.9rem !important;
+    }
+}
+
+/* Mobile - 768px and below */
+@media (max-width: 768px) {
+    .header .top-bar {
+        display: none !important;
+    }
+    
+    .header .navbar {
+        padding: 0.8rem 0 !important;
+    }
+    
+    .header .nav-container {
+        padding: 0 15px !important;
+        position: relative !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+    
+    .header .hamburger {
+        display: flex !important;
+        order: 1 !important;
+        z-index: 1001 !important;
+    }
+    
+    .header .hamburger span {
+        background: white !important;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+    }
+    
+    .header.scrolled .hamburger span {
+        background: white !important;
+        box-shadow: none !important;
+    }
+    
+    .header .logo {
+        font-size: 1.3rem !important;
+        order: 2 !important;
+        position: absolute !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3) !important;
+    }
+    
+    .header.scrolled .logo {
+        color: white !important;
+        text-shadow: none !important;
+    }
+    
+    .header .logo i {
+        font-size: 1.6rem !important;
+    }
+    
+    .header .nav-menu {
+        position: fixed !important;
+        left: -100% !important;
+        top: 0 !important;
+        flex-direction: column !important;
+        background-color: white !important;
+        width: 100% !important;
+        height: 100vh !important;
+        text-align: left !important;
+        transition: 0.3s ease !important;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
+        padding: 80px 0 2rem 0 !important;
+        z-index: 1000 !important;
+        transform: none !important;
+        overflow-y: auto !important;
+        justify-content: flex-start !important;
+        gap: 0 !important;
+    }
+    
+    .header .nav-menu.active {
+        left: 0 !important;
+    }
+    
+    .header .nav-menu li {
+        margin: 0 !important;
+        border-bottom: 1px solid #f8f9fa !important;
+        width: 100% !important;
+    }
+    
+    .header .nav-menu li:last-child {
+        border-bottom: none !important;
+    }
+    
+    .header .nav-menu a {
+        color: #333 !important;
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        padding: 20px 25px !important;
+        display: block !important;
+        transition: all 0.3s ease !important;
+        position: relative !important;
+        text-shadow: none !important;
+        width: 100% !important;
+    }
+    
+    .header .nav-menu a:hover {
+        background: #f8f9fa !important;
+        color: var(--primary-blue) !important;
+        padding-left: 35px !important;
+    }
+    
+    .header .profile-icon {
+        display: block !important;
+        position: relative !important;
+        cursor: pointer !important;
+        order: 3 !important;
+        z-index: 1001 !important;
+    }
+    
+    .header .profile-icon > i {
+        font-size: 1.8rem !important;
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3) !important;
+        display: block !important;
+        transition: all 0.3s ease !important;
+    }
+    
+    .header .profile-icon:hover > i {
+        color: var(--primary-blue) !important;
+        text-shadow: none !important;
+    }
+    
+    .header.scrolled .profile-icon > i {
+        color: white !important;
+        text-shadow: none !important;
+    }
+    
+    .header.scrolled .profile-icon:hover > i {
+        color: var(--primary-blue) !important;
+        text-shadow: none !important;
+    }
+    
+    .header .profile-dropdown {
+        right: 0 !important;
+        top: 100% !important;
+        margin-top: 10px !important;
+        min-width: 200px !important;
+    }
+}

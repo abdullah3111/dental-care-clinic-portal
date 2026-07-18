@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Jaundice",
+        "description": "A condition in which the skin and whites of the eyes turn yellow.",
+        "causes": "Excess bilirubin in the blood, often due to liver disease or bile duct obstruction.",
+        "symptoms": [
+            "Yellowing of skin and eyes",
+            "Pale stools",
+            "Dark urine",
+            "Itchiness"
+        ],
+        "prevention": "Maintain liver health and get vaccinated for hepatitis.",
+        "treatment_action": "Treating the underlying cause.",
+        "complications": "Brain damage (in newborns) and liver failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Juvenile Idiopathic Arthritis",
+        "description": "The most common type of arthritis in children under the age of 16.",
+        "causes": "Autoimmune reaction.",
+        "symptoms": [
+            "Joint pain",
+            "Swelling",
+            "Stiffness",
+            "Fever and rash"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Medications (NSAIDs, biologics) and physical therapy.",
+        "complications": "Eye problems (uveitis) and growth interference.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

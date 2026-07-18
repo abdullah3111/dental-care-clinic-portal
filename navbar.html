@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +92 21 1234 5678</span>
+                <span><i class="fas fa-envelope"></i> info@medicareclinic.com</span>
+            </div>
+            <div class="social-links-top">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo">
+                <img src="assets/images/Clinic-logo.png" alt="MediCare Clinic" class="logo-img">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="profile-icon">
+                <i class="fas fa-user-circle"></i>
+                <div class="profile-dropdown">
+                    <a href="#"><i class="fas fa-user"></i> My Profile</a>
+                    <a href="#"><i class="fas fa-calendar"></i> My Appointments</a>
+                    <a href="#"><i class="fas fa-file-medical"></i> Medical Records</a>
+                    <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<script src="navbar.js"></script>
+</body>
+</html>

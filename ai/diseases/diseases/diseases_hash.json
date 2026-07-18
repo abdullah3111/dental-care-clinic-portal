@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "disease_name": "5-Alpha Reductase Deficiency",
+        "description": "A rare genetic disorder that affects male sexual development due to deficiency of the enzyme 5-alpha reductase.",
+        "causes": "Genetic mutations affecting the SRD5A2 gene.",
+        "symptoms": [
+            "Ambiguous genitalia at birth",
+            "Underdeveloped male characteristics",
+            "Infertility",
+            "Lack of facial and body hair",
+            "High-pitched voice"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Hormone replacement therapy, surgical correction if needed.",
+        "complications": "Psychological issues, fertility problems, social challenges.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "11-Beta Hydroxylase Deficiency",
+        "description": "A rare form of congenital adrenal hyperplasia affecting hormone production.",
+        "causes": "Genetic mutations in the CYP11B1 gene.",
+        "symptoms": [
+            "High blood pressure",
+            "Ambiguous genitalia in females",
+            "Early puberty",
+            "Excessive hair growth",
+            "Acne"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Corticosteroid replacement therapy, blood pressure management.",
+        "complications": "Cardiovascular problems, fertility issues, growth problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "21-Hydroxylase Deficiency",
+        "description": "The most common form of congenital adrenal hyperplasia, affecting cortisol and aldosterone production.",
+        "causes": "Genetic mutations in the CYP21A2 gene.",
+        "symptoms": [
+            "Salt wasting in severe cases",
+            "Dehydration",
+            "Ambiguous genitalia in females",
+            "Early puberty",
+            "Short stature"
+        ],
+        "prevention": "No prevention as it's genetic. Newborn screening available.",
+        "treatment_action": "Lifelong hormone replacement therapy with corticosteroids.",
+        "complications": "Adrenal crisis, fertility problems, psychological issues.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+        "description": "A rare genetic disorder affecting the breakdown of the amino acid leucine.",
+        "causes": "Genetic mutations in the MCCC1 or MCCC2 genes.",
+        "symptoms": [
+            "Feeding difficulties in infants",
+            "Vomiting",
+            "Lethargy",
+            "Developmental delays",
+            "Seizures"
+        ],
+        "prevention": "No prevention as it's genetic. Newborn screening can detect it.",
+        "treatment_action": "Low-protein diet, carnitine supplementation, avoid fasting.",
+        "complications": "Metabolic crisis, brain damage, developmental disabilities.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "6-Pyruvoyl-Tetrahydropterin Synthase Deficiency",
+        "description": "A rare genetic disorder affecting the production of tetrahydrobiopterin, essential for neurotransmitter synthesis.",
+        "causes": "Genetic mutations in the PTS gene.",
+        "symptoms": [
+            "Intellectual disability",
+            "Seizures",
+            "Movement disorders",
+            "Behavioral problems",
+            "Sleep disturbances"
+        ],
+        "prevention": "No prevention as it's genetic. Newborn screening available.",
+        "treatment_action": "Tetrahydrobiopterin supplementation, neurotransmitter precursors.",
+        "complications": "Severe intellectual disability, progressive neurological decline.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "17-Beta Hydroxysteroid Dehydrogenase Deficiency",
+        "description": "A rare disorder of sexual development affecting testosterone production.",
+        "causes": "Genetic mutations in the HSD17B3 gene.",
+        "symptoms": [
+            "Ambiguous genitalia",
+            "Underdeveloped male characteristics",
+            "Female appearance at birth in genetic males",
+            "Virilization at puberty",
+            "Infertility"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Hormone therapy, psychological support, surgical options.",
+        "complications": "Gender identity issues, fertility problems, psychological distress.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "22q11.2 Deletion Syndrome",
+        "description": "A genetic disorder caused by deletion of a small piece of chromosome 22, also known as DiGeorge syndrome.",
+        "causes": "Deletion of genetic material from chromosome 22.",
+        "symptoms": [
+            "Heart defects",
+            "Cleft palate",
+            "Immune system problems",
+            "Learning difficulties",
+            "Characteristic facial features"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Multidisciplinary care addressing specific symptoms and complications.",
+        "complications": "Recurrent infections, heart problems, developmental delays.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "1p36 Deletion Syndrome",
+        "description": "A genetic disorder caused by deletion of genetic material from the short arm of chromosome 1.",
+        "causes": "Deletion of genetic material from chromosome 1p36.",
+        "symptoms": [
+            "Intellectual disability",
+            "Delayed development",
+            "Distinctive facial features",
+            "Heart defects",
+            "Seizures"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Supportive care, early intervention therapies, seizure management.",
+        "complications": "Severe developmental delays, medical complications.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "4p- Syndrome (Wolf-Hirschhorn Syndrome)",
+        "description": "A rare genetic disorder caused by partial deletion of the short arm of chromosome 4.",
+        "causes": "Deletion of genetic material from chromosome 4p.",
+        "symptoms": [
+            "Distinctive facial features",
+            "Severe intellectual disability",
+            "Growth delays",
+            "Seizures",
+            "Heart defects"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Supportive care, seizure management, developmental therapies.",
+        "complications": "Severe developmental delays, medical complications, shortened lifespan.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "15q Duplication Syndrome",
+        "description": "A genetic disorder caused by duplication of genetic material on chromosome 15.",
+        "causes": "Duplication of genetic material from chromosome 15q11-q13.",
+        "symptoms": [
+            "Autism spectrum behaviors",
+            "Intellectual disability",
+            "Seizures",
+            "Hypotonia (low muscle tone)",
+            "Speech delays"
+        ],
+        "prevention": "No prevention as it's genetic. Genetic counseling recommended.",
+        "treatment_action": "Behavioral therapies, seizure management, educational support.",
+        "complications": "Severe developmental delays, behavioral challenges, medical complications.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

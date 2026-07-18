@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Ebola Virus Disease",
+        "description": "A rare and deadly disease in people and nonhuman primates.",
+        "causes": "Ebola virus, spread through direct contact with infected blood or body fluids.",
+        "symptoms": [
+            "Fever",
+            "Severe headache",
+            "Muscle pain",
+            "Weakness",
+            "Fatigue",
+            "Diarrhea",
+            "Vomiting"
+        ],
+        "prevention": "Avoid contact with infected individuals and animals, and practice good hygiene.",
+        "treatment_action": "Supportive care (fluids, electrolytes) and experimental treatments.",
+        "complications": "Organ failure, severe bleeding, and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Eczema (Atopic Dermatitis)",
+        "description": "A condition that makes your skin red and itchy.",
+        "causes": "Gene variation, environmental triggers, and immune system overactivity.",
+        "symptoms": [
+            "Dry skin",
+            "Itching",
+            "Red to brownish-gray patches",
+            "Small, raised bumps"
+        ],
+        "prevention": "Moisturize skin, avoid triggers, and use mild soaps.",
+        "treatment_action": "Moisturizers, corticosteroid creams, and light therapy.",
+        "complications": "Skin infections, asthma, and hay fever.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Emphysema",
+        "description": "A lung condition that causes shortness of breath due to damage to the air sacs (alveoli).",
+        "causes": "Smoking and long-term exposure to airborne irritants.",
+        "symptoms": [
+            "Shortness of breath",
+            "Wheezing",
+            "Chronic cough",
+            "Fatigue"
+        ],
+        "prevention": "Don't smoke and avoid secondhand smoke.",
+        "treatment_action": "Inhalers, oxygen therapy, and pulmonary rehabilitation.",
+        "complications": "Collapsed lung (pneumothorax), heart problems, and large holes in the lungs (bullae).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Endometriosis",
+        "description": "A disorder in which tissue similar to the tissue that normally lines the inside of your uterus grows outside your uterus.",
+        "causes": "Retrograde menstruation, cellular transformation, and immune system disorders.",
+        "symptoms": [
+            "Painful periods",
+            "Pain with intercourse",
+            "Pain with bowel movements or urination",
+            "Excessive bleeding",
+            "Infertility"
+        ],
+        "prevention": "No known way to prevent, but hormonal birth control can manage symptoms.",
+        "treatment_action": "Pain medications, hormone therapy, and surgery.",
+        "complications": "Infertility and increased risk of ovarian cancer.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Epilepsy",
+        "description": "A neurological disorder in which brain activity becomes abnormal, causing seizures.",
+        "causes": "Genetics, head trauma, brain conditions, and infectious diseases.",
+        "symptoms": [
+            "Temporary confusion",
+            "A staring spell",
+            "Uncontrollable jerking movements",
+            "Loss of consciousness"
+        ],
+        "prevention": "Prevent head injuries and treat infections promptly.",
+        "treatment_action": "Anti-seizure medications, surgery, or dietary therapy.",
+        "complications": "Falls, drowning, car accidents, and status epilepticus.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Erysipelas",
+        "description": "A bacterial skin infection involving the upper dermis that characteristically extends into the superficial cutaneous lymphatics.",
+        "causes": "Group A Streptococcus bacteria.",
+        "symptoms": [
+            "Shiny, red, raised rash",
+            "Sharp borders of the rash",
+            "Fever and chills",
+            "Blisters"
+        ],
+        "prevention": "Keep skin clean and treat cuts promptly.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Abscess, gangrene, and blood clots.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Esophageal Cancer",
+        "description": "Cancer that occurs in the esophagus — a long, hollow tube that runs from your throat to your stomach.",
+        "causes": "Smoking, alcohol use, chronic acid reflux, and obesity.",
+        "symptoms": [
+            "Difficulty swallowing",
+            "Weight loss",
+            "Chest pain",
+            "Worsening indigestion or heartburn"
+        ],
+        "prevention": "Quit smoking, limit alcohol, and manage acid reflux.",
+        "treatment_action": "Surgery, chemotherapy, radiation therapy, and targeted therapy.",
+        "complications": "Obstruction of the esophagus, pain, and bleeding.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

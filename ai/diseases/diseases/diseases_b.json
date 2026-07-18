@@ -1,0 +1,323 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Bacterial Vaginosis",
+        "description": "A type of vaginal inflammation caused by the overgrowth of bacteria naturally found in the vagina, which upsets the natural balance.",
+        "causes": "Overgrowth of certain bacteria, often linked to new or multiple sex partners or douching.",
+        "symptoms": [
+            "Thin, gray, white or green vaginal discharge",
+            "Foul-smelling 'fishy' vaginal odor",
+            "Vaginal itching",
+            "Burning during urination"
+        ],
+        "prevention": "Avoid douching, limit sex partners, and use mild, non-scented soaps.",
+        "treatment_action": "Prescription antibiotics (pills or creams).",
+        "complications": "Increased risk of STIs and preterm birth.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Balanitis",
+        "description": "Inflammation of the head of the penis (the glans).",
+        "causes": "Poor hygiene, infections (yeast or bacteria), or skin conditions.",
+        "symptoms": [
+            "Redness and swelling",
+            "Pain or tenderness",
+            "Itching",
+            "Foul-smelling discharge"
+        ],
+        "prevention": "Good hygiene, especially for uncircumcised men.",
+        "treatment_action": "Antifungal or antibiotic creams, and improved hygiene.",
+        "complications": "Phimosis (inability to retract foreskin) and scarring.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Barrett's Esophagus",
+        "description": "A condition in which the lining of the esophagus is damaged by stomach acid and changed to a lining similar to that of the small intestine.",
+        "causes": "Long-term gastroesophageal reflux disease (GERD).",
+        "symptoms": [
+            "Frequent heartburn",
+            "Difficulty swallowing food",
+            "Chest pain (less common)"
+        ],
+        "prevention": "Treating GERD symptoms early and effectively.",
+        "treatment_action": "Monitoring with endoscopy, and sometimes surgery or ablation.",
+        "complications": "Increased risk of esophageal cancer.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Bartholin's Cyst",
+        "description": "A fluid-filled swelling in the Bartholin's glands, which are located on each side of the vaginal opening.",
+        "causes": "Blockage of the gland's duct.",
+        "symptoms": [
+            "Painless lump near the vaginal opening",
+            "Discomfort while walking or sitting",
+            "Pain during intercourse"
+        ],
+        "prevention": "Safe sex and good hygiene may help prevent infection of a cyst.",
+        "treatment_action": "Sitz baths, drainage, or antibiotics if infected.",
+        "complications": "Abscess formation.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Basal Cell Carcinoma",
+        "description": "A type of skin cancer that begins in the basal cells.",
+        "causes": "Long-term exposure to ultraviolet (UV) radiation from sunlight.",
+        "symptoms": [
+            "A pearly or waxy bump",
+            "A flat, flesh-colored or brown scar-like lesion",
+            "A bleeding or scabbing sore that heals and returns"
+        ],
+        "prevention": "Avoid peak sun, use sunscreen, and wear protective clothing.",
+        "treatment_action": "Surgical excision, Mohs surgery, or radiation therapy.",
+        "complications": "Recurrence and spread to surrounding tissues.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Bell's Palsy",
+        "description": "A condition that causes sudden, temporary weakness in the facial muscles.",
+        "causes": "Likely caused by viral infections that lead to swelling of the facial nerve.",
+        "symptoms": [
+            "Rapid onset of mild weakness to total paralysis on one side of the face",
+            "Facial droop and difficulty making facial expressions",
+            "Drooling",
+            "Pain around the jaw or behind the ear"
+        ],
+        "prevention": "No known way to prevent Bell's palsy.",
+        "treatment_action": "Corticosteroids and antiviral drugs.",
+        "complications": "Irreversible damage to the facial nerve and eye problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Benign Prostatic Hyperplasia (BPH)",
+        "description": "A condition in men in which the prostate gland is enlarged and not cancerous.",
+        "causes": "Changes in hormone balance as men get older.",
+        "symptoms": [
+            "Frequent or urgent need to urinate",
+            "Increased frequency of urination at night",
+            "Difficulty starting urination",
+            "Weak urine stream"
+        ],
+        "prevention": "No known way to prevent, but a healthy diet and exercise may help.",
+        "treatment_action": "Medications, minimally invasive procedures, or surgery.",
+        "complications": "Urinary tract infections, bladder stones, and kidney damage.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Bipolar Disorder",
+        "description": "A mental health condition that causes extreme mood swings that include emotional highs (mania or hypomania) and lows (depression).",
+        "causes": "Biological differences and genetics.",
+        "symptoms": [
+            "Abnormally upbeat, jumpy or wired (mania)",
+            "Increased activity, energy or agitation (mania)",
+            "Depressed mood (depression)",
+            "Loss of interest or pleasure (depression)"
+        ],
+        "prevention": "No known way to prevent, but early treatment can help prevent worsening.",
+        "treatment_action": "Medications (mood stabilizers) and psychotherapy.",
+        "complications": "Problems related to drug and alcohol use, suicide or suicide attempts.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "Bladder Cancer",
+        "description": "A type of cancer that begins in the cells of the bladder.",
+        "causes": "Smoking, chemical exposure, and chronic bladder inflammation.",
+        "symptoms": [
+            "Blood in urine (hematuria)",
+            "Frequent urination",
+            "Painful urination",
+            "Back pain"
+        ],
+        "prevention": "Don't smoke, take caution with chemicals, and drink plenty of water.",
+        "treatment_action": "Surgery, chemotherapy, radiation therapy, or immunotherapy.",
+        "complications": "Recurrence and spread to other organs.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Blastomycosis",
+        "description": "An infection caused by breathing in the fungus Blastomyces dermatitidis.",
+        "causes": "Exposure to moist soil and decomposing matter containing the fungus.",
+        "symptoms": [
+            "Fever and chills",
+            "Cough",
+            "Muscle aches",
+            "Joint pain",
+            "Chest pain"
+        ],
+        "prevention": "Avoid areas where the fungus is known to live, especially if immunocompromised.",
+        "treatment_action": "Antifungal medications.",
+        "complications": "Spread to skin, bones, and central nervous system.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 11,
+        "disease_name": "Blood Clots (Deep Vein Thrombosis)",
+        "description": "A blood clot that forms in a vein deep in the body, usually in the lower leg or thigh.",
+        "causes": "Injury to a vein, surgery, certain medications, and limited movement.",
+        "symptoms": [
+            "Swelling in the affected leg",
+            "Pain in the leg",
+            "Red or discolored skin on the leg",
+            "A feeling of warmth in the affected leg"
+        ],
+        "prevention": "Avoid sitting still for long periods, exercise regularly, and manage weight.",
+        "treatment_action": "Blood thinners (anticoagulants) and compression stockings.",
+        "complications": "Pulmonary embolism (clot travels to lungs).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 12,
+        "disease_name": "Bone Cancer",
+        "description": "A rare cancer that forms in a bone.",
+        "causes": "Genetic syndromes and radiation exposure.",
+        "symptoms": [
+            "Bone pain",
+            "Swelling and tenderness near the affected area",
+            "Weakened bone, leading to fracture",
+            "Fatigue"
+        ],
+        "prevention": "No known way to prevent bone cancer.",
+        "treatment_action": "Surgery, chemotherapy, and radiation therapy.",
+        "complications": "Spread to other parts of the body.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 13,
+        "disease_name": "Botulism",
+        "description": "A rare but serious illness caused by a toxin that attacks the body's nerves.",
+        "causes": "Ingesting contaminated food or through a wound infected with Clostridium botulinum.",
+        "symptoms": [
+            "Difficulty swallowing or speaking",
+            "Facial weakness on both sides of the face",
+            "Blurred or double vision",
+            "Drooping eyelids",
+            "Trouble breathing"
+        ],
+        "prevention": "Proper food preservation and hygiene.",
+        "treatment_action": "Antitoxin and supportive care (ventilator).",
+        "complications": "Respiratory failure and long-term weakness.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 14,
+        "disease_name": "Brain Tumor",
+        "description": "A mass or growth of abnormal cells in your brain.",
+        "causes": "Genetic mutations and exposure to radiation.",
+        "symptoms": [
+            "New onset or change in pattern of headaches",
+            "Gradual loss of sensation or movement in an arm or a leg",
+            "Difficulty with balance",
+            "Speech difficulties",
+            "Confusion in everyday matters"
+        ],
+        "prevention": "No known way to prevent brain tumors.",
+        "treatment_action": "Surgery, radiation therapy, chemotherapy, and targeted drug therapy.",
+        "complications": "Brain damage and permanent neurological deficits.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 15,
+        "disease_name": "Breast Cancer",
+        "description": "A cancer that forms in the cells of the breasts.",
+        "causes": "Genetics, hormonal factors, and lifestyle.",
+        "symptoms": [
+            "A breast lump or thickening",
+            "Change in the size, shape or appearance of a breast",
+            "Changes to the skin over the breast",
+            "A newly inverted nipple"
+        ],
+        "prevention": "Regular screenings, maintaining a healthy weight, and limiting alcohol.",
+        "treatment_action": "Surgery, radiation therapy, chemotherapy, and hormone therapy.",
+        "complications": "Spread to other parts of the body.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 16,
+        "disease_name": "Bronchiectasis",
+        "description": "A condition where the lungs' airways become damaged, making it hard to clear mucus.",
+        "causes": "Infections (like pneumonia or TB) or genetic conditions (like cystic fibrosis).",
+        "symptoms": [
+            "Chronic cough",
+            "Shortness of breath",
+            "Coughing up blood",
+            "Chest pain"
+        ],
+        "prevention": "Prompt treatment of lung infections and getting vaccinated.",
+        "treatment_action": "Antibiotics, chest physiotherapy, and oxygen therapy.",
+        "complications": "Respiratory failure and heart failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 17,
+        "disease_name": "Brucellosis",
+        "description": "An infectious disease caused by bacteria that are spread from animals to people.",
+        "causes": "Eating contaminated dairy products or direct contact with infected animals.",
+        "symptoms": [
+            "Fever",
+            "Joint pain",
+            "Fatigue",
+            "Sweating",
+            "Headache"
+        ],
+        "prevention": "Avoid unpasteurized dairy and use caution when handling animals.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Endocarditis, arthritis, and inflammation of the liver/spleen.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 18,
+        "disease_name": "Bulimia Nervosa",
+        "description": "A serious, potentially life-threatening eating disorder characterized by binge eating followed by purging.",
+        "causes": "Genetics, biology, emotional health, and societal expectations.",
+        "symptoms": [
+            "Preoccupation with body shape and weight",
+            "Living in fear of gaining weight",
+            "Repeated episodes of eating abnormally large amounts of food",
+            "Forcing yourself to vomit or exercising too much"
+        ],
+        "prevention": "Promoting a healthy body image and early intervention.",
+        "treatment_action": "Psychotherapy and medications (antidepressants).",
+        "complications": "Dehydration, heart problems, severe tooth decay, and digestive problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 19,
+        "disease_name": "Bursitis",
+        "description": "A painful condition that affects the small, fluid-filled sacs — called bursae — that cushion the bones, tendons and muscles near your joints.",
+        "causes": "Repetitive motions or positions that irritate the bursae.",
+        "symptoms": [
+            "Joint pain and stiffness",
+            "Swelling and redness",
+            "Pain when you move or press on the joint"
+        ],
+        "prevention": "Use cushions, take breaks, and maintain a healthy weight.",
+        "treatment_action": "Rest, ice, and pain relievers. Physical therapy or injections may be needed.",
+        "complications": "Chronic pain and loss of joint mobility.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 20,
+        "disease_name": "Babesiosis",
+        "description": "A rare, sometimes severe, disease caused by microscopic parasites that infect red blood cells.",
+        "causes": "Spread by the bite of an infected tick.",
+        "symptoms": [
+            "Fever and chills",
+            "Sweating",
+            "Fatigue",
+            "Nausea",
+            "Body aches"
+        ],
+        "prevention": "Avoid tick-infested areas and use insect repellent.",
+        "treatment_action": "Antiparasitic medications.",
+        "complications": "Low blood pressure, liver problems, and kidney failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

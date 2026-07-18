@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescriptions - Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user-profile.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="../home.html" class="logo">
+                <img src="../assets/images/Clinic-logo.png" alt="Hospital Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Profile</a>
+                <a href="appointments.html" class="nav-link">My Appointments</a>
+                <a href="medical-records.html" class="nav-link">Medical Records</a>
+                <a href="prescriptions.html" class="nav-link active">Prescriptions</a>
+                <a href="health-reports.html" class="nav-link">Health Reports</a>
+                <a href="../home.html" class="nav-link logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-layout">
+            <aside class="sidebar">
+                <div class="user-card">
+                    <div class="avatar">
+                        <img src="../assets/images/doc1.jpg" alt="User Avatar" style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
+                    </div>
+                    <h3 class="user-name">John Doe</h3>
+                    <p class="user-rank">Premium Patient</p>
+                </div>
+                <div class="user-stats">
+                    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Appointments</div></div>
+                    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Doctors</div></div>
+                    <div class="stat"><div class="stat-num">2</div><div class="stat-label">Years</div></div>
+                </div>
+                <nav class="side-menu">
+                    <a href="index.html" class="menu-item"><i class="fas fa-user"></i> My Profile</a>
+                    <a href="appointments.html" class="menu-item"><i class="fas fa-calendar-check"></i> Appointments <span class="badge">2</span></a>
+                    <a href="medical-records.html" class="menu-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                    <a href="prescriptions.html" class="menu-item active"><i class="fas fa-pills"></i> Prescriptions</a>
+                    <a href="health-reports.html" class="menu-item"><i class="fas fa-chart-line"></i> Health Reports</a>
+                    <div class="menu-divider"></div>
+                    <a href="../home.html" class="menu-item"><i class="fas fa-home"></i> Back to Home</a>
+                    <a href="../home.html" class="menu-item" style="color:#FF3B30"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </nav>
+            </aside>
+
+            <main class="main-content">
+                <h2 class="section-title"><i class="fas fa-pills"></i> My Prescriptions</h2>
+                
+                <!-- Current Prescriptions -->
+                <h3 style="margin: 0 0 15px 0; color: #2989d8; font-size: 1.1rem;">Current Prescriptions</h3>
+                
+                <div class="prescription-card">
+                    <div class="prescription-header">
+                        <h4>Active Medications</h4>
+                        <span class="prescription-date">Prescribed: Jan 28, 2026</span>
+                    </div>
+                    <div class="prescription-content">
+                        <div class="medication-item">
+                            <span class="med-name">Aspirin 75mg</span>
+                            <span class="med-dosage">Once daily after breakfast</span>
+                            <span class="med-duration">Ongoing</span>
+                        </div>
+                        <div class="medication-item">
+                            <span class="med-name">Vitamin D3 1000 IU</span>
+                            <span class="med-dosage">Once weekly</span>
+                            <span class="med-duration">3 months remaining</span>
+                        </div>
+                        <div class="medication-item">
+                            <span class="med-name">Metformin 500mg</span>
+                            <span class="med-dosage">Twice daily with meals</span>
+                            <span class="med-duration">Ongoing</span>
+                        </div>
+                    </div>
+                    <div class="prescription-doctor">
+                        <span>Prescribed by: Dr. Ahmed Hassan</span>
+                    </div>
+                    <div class="prescription-actions">
+                        <button class="btn-track"><i class="fas fa-redo"></i> Request Refill</button>
+                        <button class="btn-track"><i class="fas fa-phone"></i> Contact Doctor</button>
+                    </div>
+                </div>
+
+                <!-- Prescription History -->
+                <h3 style="margin: 30px 0 15px 0; color: #888; font-size: 0.9rem; text-transform: uppercase;">Prescription History</h3>
+                
+                <div class="prescription-card">
+                    <div class="prescription-header">
+                        <h4>Previous Medications</h4>
+                        <span class="prescription-date">Jan 15, 2026</span>
+                    </div>
+                    <div class="prescription-content">
+                        <div class="medication-item">
+                            <span class="med-name">Amoxicillin 500mg</span>
+                            <span class="med-dosage">Three times daily</span>
+                            <span class="med-duration">7 days (Completed)</span>
+                        </div>
+                        <div class="medication-item">
+                            <span class="med-name">Paracetamol 500mg</span>
+                            <span class="med-dosage">As needed for fever</span>
+                            <span class="med-duration">5 days (Completed)</span>
+                        </div>
+                    </div>
+                    <div class="prescription-doctor">
+                        <span>Prescribed by: Dr. Sarah Khan</span>
+                    </div>
+                    <div class="prescription-actions">
+                        <button class="btn-track"><i class="fas fa-eye"></i> View Details</button>
+                        <button class="btn-track"><i class="fas fa-download"></i> Download</button>
+                    </div>
+                </div>
+
+                <div class="prescription-card">
+                    <div class="prescription-header">
+                        <h4>Chronic Condition Management</h4>
+                        <span class="prescription-date">Dec 20, 2025</span>
+                    </div>
+                    <div class="prescription-content">
+                        <div class="medication-item">
+                            <span class="med-name">Lisinopril 10mg</span>
+                            <span class="med-dosage">Once daily in morning</span>
+                            <span class="med-duration">6 months (Completed)</span>
+                        </div>
+                        <div class="medication-item">
+                            <span class="med-name">Atorvastatin 20mg</span>
+                            <span class="med-dosage">Once daily at bedtime</span>
+                            <span class="med-duration">6 months (Completed)</span>
+                        </div>
+                    </div>
+                    <div class="prescription-doctor">
+                        <span>Prescribed by: Dr. Ahmed Hassan</span>
+                    </div>
+                    <div class="prescription-actions">
+                        <button class="btn-track"><i class="fas fa-eye"></i> View Details</button>
+                        <button class="btn-track"><i class="fas fa-redo"></i> Renew Prescription</button>
+                    </div>
+                </div>
+
+                <!-- Pharmacy Information -->
+                <h3 style="margin: 30px 0 15px 0; color: #2989d8; font-size: 1.1rem;">Preferred Pharmacy</h3>
+                
+                <div class="pharmacy-card">
+                    <div class="pharmacy-info">
+                        <div class="pharmacy-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="pharmacy-details">
+                            <h4>City Pharmacy</h4>
+                            <p>123 Health Street, Medical District</p>
+                            <p>Phone: +92 21 9876 5432</p>
+                            <p>Hours: 8:00 AM - 10:00 PM</p>
+                        </div>
+                        <div class="pharmacy-actions">
+                            <button class="btn-track"><i class="fas fa-phone"></i> Call</button>
+                            <button class="btn-track"><i class="fas fa-map-marker-alt"></i> Directions</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="user-profile.js"></script>
+</body>
+</html>

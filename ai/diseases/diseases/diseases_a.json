@@ -1,0 +1,497 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Asthma",
+        "description": "Asthma is a chronic condition that affects the airways in the lungs, making them inflamed and narrow, which causes difficulty in breathing.",
+        "causes": "Triggered by allergens (pollen, dust mites), respiratory infections, air pollution, cold air, or physical activity.",
+        "symptoms": [
+            "Shortness of breath",
+            "Chest tightness or pain",
+            "Wheezing when exhaling",
+            "Coughing attacks"
+        ],
+        "prevention": "Avoid triggers, get vaccinated for flu/pneumonia, and monitor breathing.",
+        "treatment_action": "Use prescribed inhalers (rescue or long-term), follow an asthma action plan.",
+        "complications": "Permanent airway narrowing, severe attacks, medication side effects.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Alzheimer's Disease",
+        "description": "A progressive neurologic disorder that causes the brain to shrink and brain cells to die, leading to memory loss and cognitive decline.",
+        "causes": "Brain protein failure, genetics, lifestyle, and environmental factors.",
+        "symptoms": [
+            "Memory loss",
+            "Confusion with time or place",
+            "Trouble solving problems",
+            "Difficulty with words"
+        ],
+        "prevention": "Healthy lifestyle (exercise, diet, mental stimulation) may reduce risk.",
+        "treatment_action": "Medications to slow progression, caregiver support, and a safe environment.",
+        "complications": "Inability to communicate, falls, difficulty swallowing, pneumonia.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Arthritis",
+        "description": "Inflammation or swelling of one or more joints, causing pain and stiffness.",
+        "causes": "Osteoarthritis (wear and tear) or Rheumatoid arthritis (autoimmune).",
+        "symptoms": [
+            "Joint pain",
+            "Stiffness",
+            "Swelling",
+            "Redness",
+            "Decreased range of motion"
+        ],
+        "prevention": "Maintain healthy weight, exercise regularly, avoid injuries.",
+        "treatment_action": "Physical therapy, medications (painkillers, anti-inflammatories), surgery.",
+        "complications": "Joint deformity, difficulty performing daily tasks.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Anemia",
+        "description": "A condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues.",
+        "causes": "Iron deficiency, vitamin deficiency, chronic disease, or genetics.",
+        "symptoms": [
+            "Fatigue",
+            "Weakness",
+            "Pale or yellowish skin",
+            "Irregular heartbeats",
+            "Shortness of breath",
+            "Dizziness"
+        ],
+        "prevention": "Eat iron-rich foods (meat, beans, leafy greens) and vitamin-rich foods.",
+        "treatment_action": "Iron supplements, vitamin supplements, or treating the underlying cause.",
+        "complications": "Severe fatigue, heart problems, pregnancy complications, death (in severe cases).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Appendicitis",
+        "description": "An inflammation of the appendix, a finger-shaped pouch that projects from your colon on the lower right side of your abdomen.",
+        "causes": "Usually caused by a blockage in the lining of the appendix that results in infection.",
+        "symptoms": [
+            "Sudden pain on the right side of the lower abdomen",
+            "Nausea and vomiting",
+            "Loss of appetite",
+            "Low-grade fever",
+            "Abdominal bloating"
+        ],
+        "prevention": "No known way to prevent, but a high-fiber diet may reduce the risk.",
+        "treatment_action": "Surgery to remove the appendix (appendectomy) and antibiotics.",
+        "complications": "Ruptured appendix, pocket of pus that forms in the abdomen (abscess).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Acne",
+        "description": "A skin condition that occurs when your hair follicles become plugged with oil and dead skin cells.",
+        "causes": "Excess oil production, clogged follicles, bacteria, and inflammation.",
+        "symptoms": [
+            "Whiteheads",
+            "Blackheads",
+            "Small red, tender bumps",
+            "Pimples (pustules)",
+            "Large, solid, painful lumps"
+        ],
+        "prevention": "Wash skin gently, avoid touching face, use non-comedogenic products.",
+        "treatment_action": "Over-the-counter creams, prescription medications, or light therapy.",
+        "complications": "Scars, skin changes (dark or light spots), emotional distress.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "AIDS (HIV)",
+        "description": "Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV).",
+        "causes": "HIV infection, spread through contact with infected blood, semen, or vaginal fluids.",
+        "symptoms": [
+            "Fever",
+            "Headache",
+            "Muscle aches and joint pain",
+            "Rash",
+            "Sore throat and painful mouth sores",
+            "Swollen lymph glands"
+        ],
+        "prevention": "Use protection during sex, don't share needles, and consider PrEP if at high risk.",
+        "treatment_action": "Antiretroviral therapy (ART) to manage the virus and prevent progression.",
+        "complications": "Opportunistic infections (pneumonia, TB), cancers, and wasting syndrome.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Allergies",
+        "description": "Occur when your immune system reacts to a foreign substance — such as pollen, bee venom or pet dander — or a food that doesn't cause a reaction in most people.",
+        "causes": "Immune system overreaction to allergens.",
+        "symptoms": [
+            "Sneezing",
+            "Itching of the nose, eyes or roof of the mouth",
+            "Runny, stuffy nose",
+            "Watery, red or swollen eyes"
+        ],
+        "prevention": "Avoid known triggers, keep a diary to identify allergens.",
+        "treatment_action": "Antihistamines, nasal sprays, or immunotherapy (allergy shots).",
+        "complications": "Anaphylaxis (life-threatening), asthma, sinusitis, and ear/lung infections.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "ALS (Amyotrophic Lateral Sclerosis)",
+        "description": "A progressive nervous system disease that affects nerve cells in the brain and spinal cord, causing loss of muscle control.",
+        "causes": "Unknown in most cases, but 5-10% of cases are inherited.",
+        "symptoms": [
+            "Difficulty walking",
+            "Weakness in legs, feet or ankles",
+            "Hand weakness or clumsiness",
+            "Slurred speech or trouble swallowing",
+            "Muscle cramps and twitching"
+        ],
+        "prevention": "No known way to prevent ALS.",
+        "treatment_action": "Medications to slow progression, physical therapy, and speech therapy.",
+        "complications": "Breathing problems, speaking problems, eating problems, and dementia.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Aneurysm",
+        "description": "A bulge in a blood vessel caused by a weakness in the blood vessel wall, usually where it branches.",
+        "causes": "High blood pressure, atherosclerosis, trauma, or heredity.",
+        "symptoms": [
+            "Often no symptoms until it ruptures",
+            "Severe headache (if brain aneurysm)",
+            "Pain in the chest or abdomen (if aortic aneurysm)",
+            "Nausea and vomiting"
+        ],
+        "prevention": "Manage blood pressure, quit smoking, and eat a healthy diet.",
+        "treatment_action": "Monitoring, medications, or surgery to repair the vessel.",
+        "complications": "Rupture leading to internal bleeding, stroke, or death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 11,
+        "disease_name": "Angina",
+        "description": "A type of chest pain caused by reduced blood flow to the heart.",
+        "causes": "Coronary artery disease (narrowing of heart arteries).",
+        "symptoms": [
+            "Chest pain or discomfort",
+            "Pain in arms, neck, jaw, shoulder or back",
+            "Nausea",
+            "Fatigue",
+            "Shortness of breath",
+            "Sweating"
+        ],
+        "prevention": "Quit smoking, monitor and control high blood pressure/cholesterol, exercise regularly.",
+        "treatment_action": "Lifestyle changes, medications (nitrates), or medical procedures (stenting, bypass).",
+        "complications": "Heart attack.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 12,
+        "disease_name": "Anorexia Nervosa",
+        "description": "An eating disorder characterized by an abnormally low body weight, an intense fear of gaining weight and a distorted perception of weight.",
+        "causes": "Biological, psychological, and environmental factors.",
+        "symptoms": [
+            "Extreme weight loss",
+            "Thin appearance",
+            "Abnormal blood counts",
+            "Fatigue",
+            "Insomnia",
+            "Dizziness or fainting"
+        ],
+        "prevention": "Early intervention and promoting healthy body image.",
+        "treatment_action": "Medical care, nutritional counseling, and psychotherapy.",
+        "complications": "Anemia, heart problems, bone loss, kidney problems, and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 13,
+        "disease_name": "Anxiety Disorders",
+        "description": "Mental health disorders characterized by feelings of worry, anxiety, or fear that are strong enough to interfere with one's daily activities.",
+        "causes": "Genetics, brain chemistry, and life events.",
+        "symptoms": [
+            "Feeling nervous, restless or tense",
+            "Having a sense of impending danger",
+            "Increased heart rate",
+            "Breathing rapidly (hyperventilation)",
+            "Sweating",
+            "Trembling"
+        ],
+        "prevention": "Get help early, stay active, and avoid alcohol/drug use.",
+        "treatment_action": "Psychotherapy (CBT) and medications (antidepressants, anti-anxiety drugs).",
+        "complications": "Depression, substance misuse, trouble sleeping, and digestive problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 14,
+        "disease_name": "Autism Spectrum Disorder",
+        "description": "A condition related to brain development that impacts how a person perceives and socializes with others, causing problems in social interaction and communication.",
+        "causes": "Genetics and environmental factors.",
+        "symptoms": [
+            "Reduced eye contact",
+            "Lack of response to their name",
+            "Repetitive movements",
+            "Specific routines or rituals",
+            "Problems with social communication"
+        ],
+        "prevention": "No known way to prevent autism.",
+        "treatment_action": "Behavior and communication therapies, educational therapies, and family therapies.",
+        "complications": "Problems in school or with successful employment, inability to live independently, and social isolation.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 15,
+        "disease_name": "Alopecia Areata",
+        "description": "An autoimmune disorder that causes your hair to come out, often in clumps the size and shape of a quarter.",
+        "causes": "The immune system attacks hair follicles.",
+        "symptoms": [
+            "Patchy hair loss",
+            "Exclamation point hairs",
+            "Widespread hair loss (in some cases)",
+            "Nail problems"
+        ],
+        "prevention": "No known way to prevent alopecia areata.",
+        "treatment_action": "Corticosteroids, immunotherapy, or topical medications.",
+        "complications": "Emotional distress and low self-esteem.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 16,
+        "disease_name": "Amoebiasis",
+        "description": "An infection of the intestines caused by the parasite Entamoeba histolytica.",
+        "causes": "Ingesting contaminated food or water.",
+        "symptoms": [
+            "Abdominal pain",
+            "Diarrhea (often bloody)",
+            "Fatigue",
+            "Excessive gas",
+            "Rectal pain while having a bowel movement"
+        ],
+        "prevention": "Wash hands, drink safe water, and eat cooked food.",
+        "treatment_action": "Antibiotics and antiparasitic medications.",
+        "complications": "Liver abscess, spread to other organs.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 17,
+        "disease_name": "Anthrax",
+        "description": "A serious infectious disease caused by gram-positive, rod-shaped bacteria known as Bacillus anthracis.",
+        "causes": "Contact with anthrax spores, usually through infected animals or animal products.",
+        "symptoms": [
+            "Fever and chills",
+            "Chest discomfort",
+            "Shortness of breath",
+            "Cough",
+            "Nausea, vomiting, or stomach pain"
+        ],
+        "prevention": "Vaccination (for high-risk individuals) and avoiding infected animals.",
+        "treatment_action": "Antibiotics and antitoxins.",
+        "complications": "Meningitis, septicemia, and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 18,
+        "disease_name": "Astigmatism",
+        "description": "A common and generally treatable imperfection in the curvature of the eye that causes blurred distance and near vision.",
+        "causes": "Irregularly shaped cornea or lens.",
+        "symptoms": [
+            "Blurred or distorted vision",
+            "Eyestrain or discomfort",
+            "Headaches",
+            "Difficulty with night vision",
+            "Squinting"
+        ],
+        "prevention": "No known way to prevent astigmatism.",
+        "treatment_action": "Eyeglasses, contact lenses, or refractive surgery (LASIK).",
+        "complications": "Amblyopia (lazy eye) if left untreated in children.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 19,
+        "disease_name": "Atherosclerosis",
+        "description": "Hardening and narrowing of the arteries, which can restrict blood flow.",
+        "causes": "High cholesterol, high blood pressure, smoking, and diabetes.",
+        "symptoms": [
+            "Often no symptoms until an artery is severely narrowed or blocked",
+            "Chest pain (angina)",
+            "Leg pain when walking",
+            "Shortness of breath"
+        ],
+        "prevention": "Healthy diet, regular exercise, quitting smoking, and managing weight.",
+        "treatment_action": "Lifestyle changes, medications (statins), or surgical procedures.",
+        "complications": "Heart attack, stroke, peripheral artery disease, and aneurysm.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 20,
+        "disease_name": "ADHD (Attention Deficit Hyperactivity Disorder)",
+        "description": "A chronic condition including attention difficulty, hyperactivity, and impulsiveness.",
+        "causes": "Genetics, environment, and problems with the central nervous system during development.",
+        "symptoms": [
+            "Inattention",
+            "Hyperactivity",
+            "Impulsivity",
+            "Difficulty staying organized",
+            "Forgetfulness"
+        ],
+        "prevention": "No known way to prevent ADHD.",
+        "treatment_action": "Behavioral therapy, medications (stimulants), and educational support.",
+        "complications": "Poor school or work performance, accidents and injuries, and poor self-esteem.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 21,
+        "disease_name": "Achalasia",
+        "description": "A rare disorder that makes it difficult for food and liquid to pass into your stomach.",
+        "causes": "Damage to the nerves in the esophagus.",
+        "symptoms": [
+            "Inability to swallow",
+            "Regurgitation of food",
+            "Heartburn",
+            "Chest pain",
+            "Coughing at night"
+        ],
+        "prevention": "No known way to prevent achalasia.",
+        "treatment_action": "Pneumatic dilation, surgery (Heller myotomy), or Botox injections.",
+        "complications": "Esophagitis, aspiration pneumonia, and increased risk of esophageal cancer.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 22,
+        "disease_name": "Acid Reflux (GERD)",
+        "description": "A digestive disorder that occurs when stomach acid or bile flows back into the food pipe (esophagus).",
+        "causes": "Weakness in the lower esophageal sphincter.",
+        "symptoms": [
+            "Heartburn",
+            "Chest pain",
+            "Difficulty swallowing",
+            "Regurgitation of food or sour liquid",
+            "Sensation of a lump in your throat"
+        ],
+        "prevention": "Maintain a healthy weight, avoid trigger foods, and don't lie down after a meal.",
+        "treatment_action": "Antacids, H2 blockers, proton pump inhibitors, or surgery.",
+        "complications": "Narrowing of the esophagus (stricture), esophageal ulcer, and Barrett's esophagus.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 23,
+        "disease_name": "Addison's Disease",
+        "description": "A disorder in which the adrenal glands don't produce enough hormones.",
+        "causes": "Autoimmune response, infections, or tumors affecting the adrenal glands.",
+        "symptoms": [
+            "Extreme fatigue",
+            "Weight loss and decreased appetite",
+            "Darkening of your skin (hyperpigmentation)",
+            "Low blood pressure",
+            "Salt craving"
+        ],
+        "prevention": "No known way to prevent Addison's disease.",
+        "treatment_action": "Hormone replacement therapy to correct the levels of steroid hormones.",
+        "complications": "Addisonian crisis (life-threatening low blood pressure).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 24,
+        "disease_name": "Agoraphobia",
+        "description": "A type of anxiety disorder in which you fear and avoid places or situations that might cause you to panic and make you feel trapped, helpless or embarrassed.",
+        "causes": "Biology, including health conditions and genetics, temperament, environmental stress and learning experiences.",
+        "symptoms": [
+            "Fear of leaving home alone",
+            "Fear of crowds or waiting in line",
+            "Fear of enclosed spaces",
+            "Fear of open spaces"
+        ],
+        "prevention": "Get help early for anxiety or panic attacks.",
+        "treatment_action": "Psychotherapy (CBT) and medications (antidepressants).",
+        "complications": "Depression, alcohol or drug abuse, and other mental health disorders.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 25,
+        "disease_name": "Albinism",
+        "description": "A group of inherited disorders that results in little or no production of the pigment melanin.",
+        "causes": "Mutation in one of several genes that provide instructions for producing or distributing melanin.",
+        "symptoms": [
+            "Very light skin, hair, and eyes",
+            "Vision problems",
+            "Sensitivity to the sun"
+        ],
+        "prevention": "Albinism is a genetic disorder, so it cannot be prevented. Genetic counseling is recommended for those with a family history.",
+        "treatment_action": "Sun protection and regular eye exams.",
+        "complications": "Skin cancer and social/emotional challenges.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 26,
+        "disease_name": "Alcohol Use Disorder",
+        "description": "A chronic relapsing brain disease characterized by an impaired ability to stop or control alcohol use despite adverse social, occupational, or health consequences.",
+        "causes": "Genetic, psychological, social and environmental factors.",
+        "symptoms": [
+            "Inability to limit the amount of alcohol you drink",
+            "Strong need or urge to drink alcohol",
+            "Developing a tolerance to alcohol",
+            "Withdrawal symptoms when you don't drink"
+        ],
+        "prevention": "Early intervention and education about the risks of alcohol misuse.",
+        "treatment_action": "Detoxification, counseling, and medications.",
+        "complications": "Liver disease, heart problems, increased risk of cancer, and weakened immune system.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 27,
+        "disease_name": "Amnesia",
+        "description": "Refers to the loss of memories, such as facts, information and experiences.",
+        "causes": "Damage to areas of the brain that are vital for memory processing.",
+        "symptoms": [
+            "Difficulty learning new information",
+            "Difficulty remembering past events and previously familiar information"
+        ],
+        "prevention": "Avoid brain injury, treat strokes quickly, and avoid excessive alcohol use.",
+        "treatment_action": "Occupational therapy and technological assistance.",
+        "complications": "Difficulty with daily activities and social interaction.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 28,
+        "disease_name": "Amyloidosis",
+        "description": "A rare disease that occurs when a substance called amyloid builds up in your organs.",
+        "causes": "Abnormal protein production.",
+        "symptoms": [
+            "Severe fatigue and weakness",
+            "Shortness of breath",
+            "Numbness, tingling or pain in hands or feet",
+            "Swelling of ankles and legs"
+        ],
+        "prevention": "No known way to prevent amyloidosis.",
+        "treatment_action": "Chemotherapy, heart medications, or organ transplant.",
+        "complications": "Kidney failure, heart failure, and nervous system damage.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 29,
+        "disease_name": "Ankylosing Spondylitis",
+        "description": "An inflammatory disease that, over time, can cause some of the small bones in your spine (vertebrae) to fuse.",
+        "causes": "The exact cause is unknown, though genetic factors seem to be involved.",
+        "symptoms": [
+            "Pain and stiffness in your lower back and hips",
+            "Neck pain and fatigue"
+        ],
+        "prevention": "No known way to prevent ankylosing spondylitis.",
+        "treatment_action": "Physical therapy and medications (NSAIDs, biologics).",
+        "complications": "Eye inflammation (uveitis), compression fractures, and heart problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 30,
+        "disease_name": "Anosmia",
+        "description": "The partial or complete loss of the sense of smell.",
+        "causes": "Nasal congestion, nasal polyps, or damage to the olfactory nerve.",
+        "symptoms": [
+            "Inability to smell odors",
+            "Change in the way things smell"
+        ],
+        "prevention": "Avoid head injuries and treat nasal infections promptly.",
+        "treatment_action": "Treating the underlying cause (e.g., decongestants, surgery for polyps).",
+        "complications": "Loss of interest in eating and inability to detect dangerous odors (smoke, gas).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

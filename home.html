@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Clinic - Your Health, Our Priority</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Navbar Specific Reset */
+        .header, .header * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-box">
+                    <div class="logo-dot"></div>
+                </div>
+                <span class="logo-text">PULSE CARE</span>
+            </div>
+            <div class="gold-line"></div>
+            <div class="counter-wrapper">
+                <span class="counter" id="counter">000</span>
+            </div>
+        </div>
+        <svg class="loader-curve" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path d="M0,0 C480,200 960,200 1440,0 V0 H0 Z" />
+        </svg>
+    </div>
+
+    <!-- Main Content -->
+    <div id="mainContent" class="main-content">
+    <!-- Include Navbar -->
+    <!-- Header -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="top-container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +92 21 1234 5678</span>
+                    <span><i class="fas fa-envelope"></i> info@medicareclinic.com</span>
+                </div>
+                <div class="social-links-top">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo">
+                    <img src="assets/images/Clinic-logo.png" alt="MediCare Clinic" class="logo-img">
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="profile-icon">
+                    <i class="fas fa-user-circle"></i>
+                    <div class="profile-dropdown">
+                        <a href="users/index.html" class="hover-effect hover-dropdown-item"><i class="fas fa-user"></i> My Profile</a>
+                        <a href="users/appointments.html" class="hover-effect hover-dropdown-item"><i class="fas fa-calendar"></i> My Appointments</a>
+                        <a href="users/medical-records.html" class="hover-effect hover-dropdown-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                        <a href="#" class="hover-effect hover-dropdown-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>A Great Place care for<br><span class="underlined-text">yourself</span></h1>
+            <p>Medical recover is most focused in helping you discover your most beautiful smile</p>
+            <div class="hero-buttons">
+                <button class="btn-primary hover-effect hover-button-white">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- White Space with Doctors Image and Booking Form -->
+    <section class="booking-white-section">
+        <div class="booking-form-container">
+            <!-- Doctors Image -->
+            <div class="doctors-image-section">
+                <img src="assets/images/IMG1.png" alt="Medical Team">
+            </div>
+            
+            <div class="booking-form-compact">
+                <div class="form-field-compact">
+                    <label>Choose Services</label>
+                    <select>
+                        <option>Heart Problem</option>
+                        <option>General Medicine</option>
+                        <option>Cardiology</option>
+                        <option>Radiology</option>
+                    </select>
+                </div>
+                <div class="form-field-compact">
+                    <label>Choose Date</label>
+                    <input type="date">
+                </div>
+                <div class="form-field-compact">
+                    <label>Contact Number</label>
+                    <input type="tel" placeholder="+91 968 727 9122">
+                </div>
+                <div class="form-field-compact">
+                    <button class="btn-book-compact hover-effect hover-button-compact">Book Appointment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-images">
+                    <div class="image-grid">
+                        <div class="about-image-card about-image-1">
+                            <img src="assets/images/habout1.jpg" alt="Doctor Team" />
+                        </div>
+                        <div class="about-image-card about-image-2">
+                            <img src="assets/images/habout2.jpg" alt="Medical Care" />
+                        </div>
+                        <div class="about-image-card about-image-3">
+                            <img src="assets/images/habout3.jpg" alt="Patient Care" />
+                        </div>
+                        <div class="about-image-card about-image-4">
+                            <img src="assets/images/habout4.jpg" alt="Medical Team" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <span class="section-subtitle">About Us</span>
+                    <h2>Excellence in <span class="highlight">Medical Care</span><br>Trusted by Thousands</h2>
+                    <p>We are committed to providing world-class healthcare services with compassion and expertise. Our state-of-the-art facilities and dedicated medical professionals ensure that every patient receives personalized care tailored to their unique needs.</p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>1200+</h3>
+                            <p>Satisfied Patients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>25+</h3>
+                            <p>Medical Specialists</p>
+                        </div>
+                        <div class="stat">
+                            <h3>98%</h3>
+                            <p>Success Rate</p>
+                        </div>
+                    </div>
+                    
+                    <div class="signature">
+                        <p class="signature-name">Dr. Sarah Ahmed</p>
+                        <p class="signature-title">Director of Medical Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="services-content">
+                <div class="services-text">
+                    <h2>See what we provide to<br>keep you healthy</h2>
+                    <p>With World-class Preventive, Prescriptive & Curative Medical Practices. Starting has been at the Heart of Nurturing Healthy Living Since the Turn of the New Century</p>
+                </div>
+                
+                <div class="services-list">
+                    <div class="service-item">Cardiology</div>
+                    <div class="service-item">Anaesthesiology</div>
+                    <div class="service-item">Bariatric Surgery</div>
+                    <div class="service-item">Blood Bank</div>
+                    <div class="service-item">Endocrinology & Diabetology</div>
+                    <div class="service-item">Medical Oncology</div>
+                    <div class="service-item">Neurology</div>
+                    <div class="service-item">Orthopedics</div>
+                    <div class="service-item">Pediatrics</div>
+                    <div class="service-item">Pulmonology</div>
+                    <div class="service-item">Radiology</div>
+                    <div class="service-item">Urology</div>
+                    <div class="service-item">Gastroenterology</div>
+                    <div class="service-item">Dermatology</div>
+                    <div class="service-item">Ophthalmology</div>
+                    <div class="service-item">ENT Surgery</div>
+                    <div class="service-item">Plastic Surgery</div>
+                    <div class="service-item">Nephrology</div>
+                    <div class="service-item">Emergency Medicine</div>
+                    <div class="service-item">General Surgery</div>
+                    <div class="service-item">Gynecology</div>
+                    <div class="service-item">Internal Medicine</div>
+                    <div class="service-item">Pathology</div>
+                    <div class="service-item">Physiotherapy</div>
+                    <div class="service-item">Rheumatology</div>
+                    <div class="service-item">Vascular Surgery</div>
+                    <div class="service-item">Nuclear Medicine</div>
+                    <div class="service-item">Dental Care</div>
+                    <div class="service-item">Nutrition & Dietetics</div>
+                    <div class="service-item">Psychology</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <div class="container">
+            <div class="why-choose-content">
+                <div class="why-choose-text">
+                    <div class="section-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Benefits</span>
+                    </div>
+                    <h2>Why <span class="highlight">Choose</span> Us?</h2>
+                    <p>Ready to tackle your home improvement projects? Whether you need a quick fix, a renovation, or regular maintenance, QuickFix is here to help</p>
+                    
+                    <div class="features-accordion">
+                        <div class="feature-item active">
+                            <div class="feature-header">
+                                <div class="feature-icon">
+                                    <i class="fas fa-stethoscope"></i>
+                                </div>
+                                <h3>Expert Medical Team</h3>
+                                <div class="expand-icon">
+                                    <i class="fas fa-chevron-up"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <p>No hidden fees, no surprises - just clear, honest pricing. We provide upfront estimates for all our services, so you know exactly what to expect from start to finish.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <div class="feature-icon">
+                                    <i class="fas fa-ambulance"></i>
+                                </div>
+                                <h3>24/7 Emergency Care</h3>
+                                <div class="expand-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <p>Round-the-clock emergency medical services available whenever you need immediate medical attention and care.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <div class="feature-icon">
+                                    <i class="fas fa-hospital-alt"></i>
+                                </div>
+                                <h3>Modern Medical Facilities</h3>
+                                <div class="expand-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <p>State-of-the-art medical equipment and comfortable treatment environments for the best patient experience.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <div class="feature-icon">
+                                    <i class="fas fa-user-nurse"></i>
+                                </div>
+                                <h3>Patient-Focused Approach</h3>
+                                <div class="expand-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <p>Individual attention and customized treatment plans designed specifically for each patient's unique needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="why-choose-image">
+                    <div class="images-layout">
+                        <div class="main-image">
+                            <img src="assets/images/hchooseusimg1.png" alt="Medical Professional">
+                        </div>
+                        <div class="side-image">
+                            <img src="assets/images/hchooseusimg2.png" alt="Healthcare Team">
+                            <div class="experience-badge">
+                                <h3>10y.</h3>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Doctors Section -->
+    <section id="doctors" class="doctors-section">
+        <div class="container">
+            <div class="doctors-header">
+                <span class="section-subtitle">Our Team</span>
+                <h2>Meet Our <span class="highlight">Expert Doctors</span></h2>
+                <p>Our experienced medical professionals are dedicated to providing you with the highest quality healthcare services</p>
+            </div>
+            
+            <div class="doctors-slider-container">
+                <div class="doctors-slider">
+                    <!-- Original cards -->
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc1.jpg" alt="Dr. Hassan Ali">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=hassan-ali" class="doctor-name-link">Dr. Hassan Ali</a></h3>
+                        <p class="specialty">Dermatologist</p>
+                        <span class="experience">14+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc2.jpg" alt="Dr. Ayesha Malik">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=ayesha-malik" class="doctor-name-link">Dr. Ayesha Malik</a></h3>
+                        <p class="specialty">Gynecologist</p>
+                        <span class="experience">16+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc3.jpg" alt="Dr. Ahmed Hassan">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=ahmed-hassan" class="doctor-name-link">Dr. Ahmed Hassan</a></h3>
+                        <p class="specialty">Cardiologist</p>
+                        <span class="experience">15+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc4.jpg" alt="Dr. Sarah Khan">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=sarah-khan" class="doctor-name-link">Dr. Sarah Khan</a></h3>
+                        <p class="specialty">Neurologist</p>
+                        <span class="experience">12+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc5.jpg" alt="Dr. Ali Raza">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=ali-raza" class="doctor-name-link">Dr. Ali Raza</a></h3>
+                        <p class="specialty">Orthopedic Surgeon</p>
+                        <span class="experience">18+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc6.jpg" alt="Dr. Muhammad Tariq">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=muhammad-tariq" class="doctor-name-link">Dr. Muhammad Tariq</a></h3>
+                        <p class="specialty">Pediatrician</p>
+                        <span class="experience">10+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Duplicate first 3 cards for seamless loop -->
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc1.jpg" alt="Dr. Hassan Ali">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=hassan-ali" class="doctor-name-link">Dr. Hassan Ali</a></h3>
+                        <p class="specialty">Dermatologist</p>
+                        <span class="experience">14+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc2.jpg" alt="Dr. Ayesha Malik">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=ayesha-malik" class="doctor-name-link">Dr. Ayesha Malik</a></h3>
+                        <p class="specialty">Gynecologist</p>
+                        <span class="experience">16+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="assets/images/doc3.jpg" alt="Dr. Ahmed Hassan">
+                        </div>
+                        <h3><a href="doctor-profile.html?doctor=ahmed-hassan" class="doctor-name-link">Dr. Ahmed Hassan</a></h3>
+                        <p class="specialty">Cardiologist</p>
+                        <span class="experience">15+ Years Experience</span>
+                        <div class="doctor-contact">
+                            <button class="btn-appointment hover-effect hover-button-compact">Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="reviews-header">
+                <span class="section-subtitle">Testimonials</span>
+                <h2>What Our <span class="highlight">Patients Say</span></h2>
+                <p>Real experiences from our valued patients who trust us with their healthcare needs</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Excellent service and professional staff. Dr. Ahmed Hassan provided outstanding care during my treatment. The facilities are modern and clean. Highly recommend this clinic to anyone looking for quality healthcare."</p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-details">
+                            <h4>Sarah Johnson</h4>
+                            <span>Verified Patient</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Amazing experience! The doctors are very knowledgeable and caring. The appointment booking process was smooth and the staff was very helpful. I felt comfortable throughout my visit."</p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-details">
+                            <h4>Michael Chen</h4>
+                            <span>Verified Patient</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Top-notch medical care with a personal touch. Dr. Sarah Khan was incredibly thorough and explained everything clearly. The clinic environment is welcoming and the technology is cutting-edge."</p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-details">
+                            <h4>Emma Rodriguez</h4>
+                            <span>Verified Patient</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <!-- Doctors Section -->
+    <!-- Contact Section -->
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="assets/images/Clinic-logo.png" alt="MediCare Clinic">
+                    </div>
+                    <p class="footer-description">
+                        Your trusted healthcare partner providing world-class medical services with compassion and expertise.
+                    </p>
+                    
+                    <div class="clinic-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1200+</span>
+                            <span class="stat-label">Happy Patients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Expert Doctors</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <div class="links-grid">
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#services">Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="#doctors">Our Doctors</a></li>
+                                <li><a href="#reviews">Reviews</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 1.5rem;">Medical Services</h3>
+                    <div class="links-grid">
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="#">Cardiology</a></li>
+                                <li><a href="#">Neurology</a></li>
+                                <li><a href="#">Orthopedics</a></li>
+                            </ul>
+                        </div>
+                        <div class="links-col">
+                            <ul class="footer-links">
+                                <li><a href="#">Pediatrics</a></li>
+                                <li><a href="#">Dermatology</a></li>
+                                <li><a href="#">Emergency</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact & Hours</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>123 Healthcare Street, Medical District</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>+92 21 1234 5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p>info@medicareclinic.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="working-hours-compact">
+                        <div class="hours-item">
+                            <span>Mon-Fri:</span>
+                            <span>8:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sat-Sun:</span>
+                            <span>9:00 AM - 8:00 PM</span>
+                        </div>
+                        <div class="emergency-note">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <span>24/7 Emergency Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p>&copy; 2024 MediCare Clinic. All rights reserved.</p>
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <!-- End Main Content -->
+
+    <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Ulcer (Peptic)",
+        "description": "Open sores that develop on the inside lining of your stomach and the upper portion of your small intestine.",
+        "causes": "H. pylori infection or long-term use of NSAIDs.",
+        "symptoms": [
+            "Burning stomach pain",
+            "Feeling of fullness",
+            "Heartburn",
+            "Nausea"
+        ],
+        "prevention": "Avoid NSAIDs and practice good hygiene.",
+        "treatment_action": "Antibiotics and medications to reduce stomach acid.",
+        "complications": "Internal bleeding and perforation.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Ulcerative Colitis",
+        "description": "An inflammatory bowel disease that causes inflammation and ulcers in your digestive tract.",
+        "causes": "Immune system malfunction and genetics.",
+        "symptoms": [
+            "Diarrhea, often with blood or pus",
+            "Abdominal pain and cramping",
+            "Rectal pain",
+            "Weight loss"
+        ],
+        "prevention": "No known way to prevent.",
+        "treatment_action": "Anti-inflammatory drugs, immune system suppressors, and surgery.",
+        "complications": "Severe bleeding, perforated colon, and increased risk of colon cancer.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Urinary Tract Infection (UTI)",
+        "description": "An infection in any part of your urinary system.",
+        "causes": "Bacteria entering the urinary tract.",
+        "symptoms": [
+            "Strong, persistent urge to urinate",
+            "Burning sensation when urinating",
+            "Cloudy or strong-smelling urine",
+            "Pelvic pain"
+        ],
+        "prevention": "Drink plenty of water and practice good hygiene.",
+        "treatment_action": "Antibiotics.",
+        "complications": "Kidney damage and sepsis.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

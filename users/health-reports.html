@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Reports - Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user-profile.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="../home.html" class="logo">
+                <img src="../assets/images/Clinic-logo.png" alt="Hospital Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Profile</a>
+                <a href="appointments.html" class="nav-link">My Appointments</a>
+                <a href="medical-records.html" class="nav-link">Medical Records</a>
+                <a href="prescriptions.html" class="nav-link">Prescriptions</a>
+                <a href="health-reports.html" class="nav-link active">Health Reports</a>
+                <a href="../home.html" class="nav-link logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-layout">
+            <aside class="sidebar">
+                <div class="user-card">
+                    <div class="avatar">
+                        <img src="../assets/images/doc1.jpg" alt="User Avatar" style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
+                    </div>
+                    <h3 class="user-name">John Doe</h3>
+                    <p class="user-rank">Premium Patient</p>
+                </div>
+                <div class="user-stats">
+                    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Appointments</div></div>
+                    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Doctors</div></div>
+                    <div class="stat"><div class="stat-num">2</div><div class="stat-label">Years</div></div>
+                </div>
+                <nav class="side-menu">
+                    <a href="index.html" class="menu-item"><i class="fas fa-user"></i> My Profile</a>
+                    <a href="appointments.html" class="menu-item"><i class="fas fa-calendar-check"></i> Appointments <span class="badge">2</span></a>
+                    <a href="medical-records.html" class="menu-item"><i class="fas fa-file-medical"></i> Medical Records</a>
+                    <a href="prescriptions.html" class="menu-item"><i class="fas fa-pills"></i> Prescriptions</a>
+                    <a href="health-reports.html" class="menu-item active"><i class="fas fa-chart-line"></i> Health Reports</a>
+                    <div class="menu-divider"></div>
+                    <a href="../home.html" class="menu-item"><i class="fas fa-home"></i> Back to Home</a>
+                    <a href="../home.html" class="menu-item" style="color:#FF3B30"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </nav>
+            </aside>
+
+            <main class="main-content">
+                <h2 class="section-title"><i class="fas fa-chart-line"></i> Health Reports & Analytics</h2>
+                
+                <!-- Health Summary Dashboard -->
+                <div class="health-dashboard">
+                    <div class="dashboard-card">
+                        <div class="dashboard-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="dashboard-info">
+                            <h4>Overall Health Score</h4>
+                            <div class="health-score">85/100</div>
+                            <p class="score-status good">Excellent</p>
+                        </div>
+                        <div class="dashboard-trend">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>+5 this month</span>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card">
+                        <div class="dashboard-icon">
+                            <i class="fas fa-weight"></i>
+                        </div>
+                        <div class="dashboard-info">
+                            <h4>BMI Status</h4>
+                            <div class="health-score">24.2</div>
+                            <p class="score-status good">Normal</p>
+                        </div>
+                        <div class="dashboard-trend">
+                            <i class="fas fa-minus"></i>
+                            <span>Stable</span>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card">
+                        <div class="dashboard-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="dashboard-info">
+                            <h4>Blood Pressure</h4>
+                            <div class="health-score">120/80</div>
+                            <p class="score-status good">Normal</p>
+                        </div>
+                        <div class="dashboard-trend">
+                            <i class="fas fa-arrow-down"></i>
+                            <span>-2 mmHg</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Test Results -->
+                <h3 style="margin: 30px 0 15px 0; color: #2989d8; font-size: 1.1rem;">Recent Test Results</h3>
+                
+                <div class="report-card">
+                    <div class="report-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="report-info">
+                        <h4>Complete Blood Count (CBC)</h4>
+                        <p class="doctor">Dr. Sarah Khan</p>
+                        <p class="date">January 28, 2026</p>
+                        <p class="description">All values within normal range. Hemoglobin: 14.2 g/dL, WBC: 6,800/μL</p>
+                        <div class="test-results">
+                            <span class="result-item normal">Hemoglobin: Normal</span>
+                            <span class="result-item normal">WBC Count: Normal</span>
+                            <span class="result-item normal">Platelets: Normal</span>
+                        </div>
+                    </div>
+                    <div class="report-actions">
+                        <button class="btn-track"><i class="fas fa-eye"></i> View</button>
+                        <button class="btn-track"><i class="fas fa-download"></i> Download</button>
+                        <button class="btn-track"><i class="fas fa-chart-line"></i> Trends</button>
+                    </div>
+                </div>
+
+                <div class="report-card">
+                    <div class="report-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="report-info">
+                        <h4>Lipid Profile</h4>
+                        <p class="doctor">Dr. Ahmed Hassan</p>
+                        <p class="date">January 15, 2026</p>
+                        <p class="description">Cholesterol levels improved. Total cholesterol: 180 mg/dL, LDL: 110 mg/dL</p>
+                        <div class="test-results">
+                            <span class="result-item good">Total Cholesterol: Good</span>
+                            <span class="result-item warning">LDL: Borderline</span>
+                            <span class="result-item good">HDL: Good</span>
+                        </div>
+                    </div>
+                    <div class="report-actions">
+                        <button class="btn-track"><i class="fas fa-eye"></i> View</button>
+                        <button class="btn-track"><i class="fas fa-download"></i> Download</button>
+                        <button class="btn-track"><i class="fas fa-chart-line"></i> Trends</button>
+                    </div>
+                </div>
+
+                <div class="report-card">
+                    <div class="report-icon" style="background: linear-gradient(135deg, #2196f3, #03a9f4);">
+                        <i class="fas fa-file-image"></i>
+                    </div>
+                    <div class="report-info">
+                        <h4>Chest X-Ray</h4>
+                        <p class="doctor">Dr. Hassan Ali</p>
+                        <p class="date">December 20, 2025</p>
+                        <p class="description">Clear lung fields, no abnormalities detected. Heart size normal.</p>
+                        <div class="test-results">
+                            <span class="result-item normal">Lungs: Clear</span>
+                            <span class="result-item normal">Heart: Normal</span>
+                            <span class="result-item normal">Bones: Normal</span>
+                        </div>
+                    </div>
+                    <div class="report-actions">
+                        <button class="btn-track"><i class="fas fa-eye"></i> View</button>
+                        <button class="btn-track"><i class="fas fa-download"></i> Download</button>
+                    </div>
+                </div>
+
+                <!-- Health Trends -->
+                <h3 style="margin: 30px 0 15px 0; color: #2989d8; font-size: 1.1rem;">Health Trends (Last 6 Months)</h3>
+                
+                <div class="trends-grid">
+                    <div class="trend-card">
+                        <div class="trend-header">
+                            <i class="fas fa-heartbeat"></i>
+                            <h4>Blood Pressure Trend</h4>
+                        </div>
+                        <div class="trend-chart">
+                            <div class="chart-placeholder">
+                                <div class="chart-line"></div>
+                                <div class="chart-points">
+                                    <span class="point" style="left: 10%;">125/85</span>
+                                    <span class="point" style="left: 30%;">122/82</span>
+                                    <span class="point" style="left: 50%;">120/80</span>
+                                    <span class="point" style="left: 70%;">118/78</span>
+                                    <span class="point" style="left: 90%;">120/80</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trend-summary">
+                            <span class="trend-status improving">↓ Improving</span>
+                            <span class="trend-change">-5 mmHg average</span>
+                        </div>
+                    </div>
+
+                    <div class="trend-card">
+                        <div class="trend-header">
+                            <i class="fas fa-weight"></i>
+                            <h4>Weight Trend</h4>
+                        </div>
+                        <div class="trend-chart">
+                            <div class="chart-placeholder">
+                                <div class="chart-line"></div>
+                                <div class="chart-points">
+                                    <span class="point" style="left: 10%;">75kg</span>
+                                    <span class="point" style="left: 30%;">74kg</span>
+                                    <span class="point" style="left: 50%;">73kg</span>
+                                    <span class="point" style="left: 70%;">72kg</span>
+                                    <span class="point" style="left: 90%;">72kg</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trend-summary">
+                            <span class="trend-status stable">→ Stable</span>
+                            <span class="trend-change">-3kg total</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Goals -->
+                <h3 style="margin: 30px 0 15px 0; color: #2989d8; font-size: 1.1rem;">Health Goals & Recommendations</h3>
+                
+                <div class="goals-container">
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div class="goal-info">
+                            <h4>Blood Pressure Control</h4>
+                            <p>Maintain BP below 120/80 mmHg</p>
+                            <div class="goal-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                </div>
+                                <span class="progress-text">85% achieved</span>
+                            </div>
+                        </div>
+                        <div class="goal-status achieved">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <div class="goal-info">
+                            <h4>Weight Management</h4>
+                            <p>Maintain healthy BMI (18.5-24.9)</p>
+                            <div class="goal-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 90%;"></div>
+                                </div>
+                                <span class="progress-text">90% achieved</span>
+                            </div>
+                        </div>
+                        <div class="goal-status achieved">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="goal-info">
+                            <h4>Cholesterol Control</h4>
+                            <p>Reduce LDL below 100 mg/dL</p>
+                            <div class="goal-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 70%;"></div>
+                                </div>
+                                <span class="progress-text">70% achieved</span>
+                            </div>
+                        </div>
+                        <div class="goal-status in-progress">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Recommendations -->
+                <div class="recommendations-card">
+                    <div class="recommendations-header">
+                        <i class="fas fa-user-md"></i>
+                        <h4>Doctor Recommendations</h4>
+                    </div>
+                    <div class="recommendations-list">
+                        <div class="recommendation-item">
+                            <div class="rec-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="rec-content">
+                                <h5>Dietary Adjustment</h5>
+                                <p>Reduce saturated fat intake to help lower LDL cholesterol. Focus on omega-3 rich foods.</p>
+                                <span class="rec-doctor">- Dr. Ahmed Hassan</span>
+                            </div>
+                        </div>
+
+                        <div class="recommendation-item">
+                            <div class="rec-icon">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <div class="rec-content">
+                                <h5>Exercise Routine</h5>
+                                <p>Continue current exercise routine. Add 30 minutes of cardio 3 times per week.</p>
+                                <span class="rec-doctor">- Dr. Sarah Khan</span>
+                            </div>
+                        </div>
+
+                        <div class="recommendation-item">
+                            <div class="rec-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="rec-content">
+                                <h5>Follow-up Schedule</h5>
+                                <p>Schedule lipid profile recheck in 3 months to monitor cholesterol improvement.</p>
+                                <span class="rec-doctor">- Dr. Ahmed Hassan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="user-profile.js"></script>
+</body>
+</html>

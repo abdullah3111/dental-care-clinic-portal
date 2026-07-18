@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Hepatitis A",
+        "description": "A highly contagious liver infection caused by the hepatitis A virus.",
+        "causes": "Ingesting contaminated food or water, or close contact with an infected person.",
+        "symptoms": [
+            "Fatigue",
+            "Nausea and vomiting",
+            "Abdominal pain",
+            "Clay-colored bowel movements",
+            "Jaundice"
+        ],
+        "prevention": "Hepatitis A vaccine and good hygiene.",
+        "treatment_action": "Rest, fluids, and managing symptoms. It usually resolves on its own.",
+        "complications": "Sudden loss of liver function (rare).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Hepatitis B",
+        "description": "A serious liver infection caused by the hepatitis B virus.",
+        "causes": "Contact with infected blood, semen, or other body fluids.",
+        "symptoms": [
+            "Abdominal pain",
+            "Dark urine",
+            "Fever",
+            "Joint pain",
+            "Jaundice"
+        ],
+        "prevention": "Hepatitis B vaccine and safe practices.",
+        "treatment_action": "Antiviral medications for chronic cases; acute cases may not need treatment.",
+        "complications": "Cirrhosis, liver cancer, and liver failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Hepatitis C",
+        "description": "A viral infection that causes liver inflammation, sometimes leading to serious liver damage.",
+        "causes": "Contact with infected blood, often through sharing needles.",
+        "symptoms": [
+            "Bleeding and bruising easily",
+            "Fatigue",
+            "Poor appetite",
+            "Jaundice",
+            "Dark-colored urine"
+        ],
+        "prevention": "Avoid sharing needles and practice safe behaviors.",
+        "treatment_action": "Antiviral medications can cure most cases.",
+        "complications": "Cirrhosis, liver cancer, and liver failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Herpes Simplex",
+        "description": "A viral infection that causes sores on the mouth or genitals.",
+        "causes": "Herpes simplex virus (HSV-1 or HSV-2).",
+        "symptoms": [
+            "Blisters or sores",
+            "Itching or tingling",
+            "Fever",
+            "Swollen lymph nodes"
+        ],
+        "prevention": "Avoid direct contact with sores and practice safe sex.",
+        "treatment_action": "Antiviral medications to manage outbreaks.",
+        "complications": "Spread to other parts of the body and increased risk of STIs.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "HIV/AIDS",
+        "description": "HIV is a virus that attacks the immune system; AIDS is the most severe stage of HIV infection.",
+        "causes": "Contact with infected blood, semen, or vaginal fluids.",
+        "symptoms": [
+            "Fever",
+            "Rash",
+            "Sore throat",
+            "Swollen glands",
+            "Weight loss"
+        ],
+        "prevention": "Safe sex, PrEP, and not sharing needles.",
+        "treatment_action": "Antiretroviral therapy (ART).",
+        "complications": "Opportunistic infections and certain cancers.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Hodgkin's Lymphoma",
+        "description": "A type of cancer that affects the lymphatic system.",
+        "causes": "Genetic mutations in white blood cells.",
+        "symptoms": [
+            "Painless swelling of lymph nodes",
+            "Persistent fatigue",
+            "Fever and chills",
+            "Night sweats",
+            "Unexplained weight loss"
+        ],
+        "prevention": "No known way to prevent Hodgkin's lymphoma.",
+        "treatment_action": "Chemotherapy, radiation therapy, and stem cell transplant.",
+        "complications": "Infections and secondary cancers.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Huntington's Disease",
+        "description": "An inherited disease that causes the progressive breakdown of nerve cells in the brain.",
+        "causes": "Inherited genetic defect.",
+        "symptoms": [
+            "Involuntary jerking or writhing movements",
+            "Muscle problems",
+            "Slow or abnormal eye movements",
+            "Impaired gait, posture and balance"
+        ],
+        "prevention": "Genetic counseling for those with a family history.",
+        "treatment_action": "Medications to manage movement and psychiatric symptoms.",
+        "complications": "Pneumonia, injuries from falls, and complications from inability to swallow.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Hypertension (High Blood Pressure)",
+        "description": "A condition in which the force of the blood against the artery walls is too high.",
+        "causes": "Lifestyle factors, genetics, and underlying conditions.",
+        "symptoms": [
+            "Often no symptoms",
+            "Headaches",
+            "Shortness of breath",
+            "Nosebleeds"
+        ],
+        "prevention": "Healthy diet, regular exercise, and limiting salt/alcohol.",
+        "treatment_action": "Lifestyle changes and medications.",
+        "complications": "Heart attack, stroke, and kidney disease.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "Hyperthyroidism",
+        "description": "A condition in which the thyroid gland produces too much of the hormone thyroxine.",
+        "causes": "Graves' disease, thyroid nodules, or thyroiditis.",
+        "symptoms": [
+            "Unintentional weight loss",
+            "Rapid heartbeat",
+            "Increased appetite",
+            "Nervousness, anxiety and irritability"
+        ],
+        "prevention": "No known way to prevent, but early diagnosis is helpful.",
+        "treatment_action": "Anti-thyroid medications, radioactive iodine, or surgery.",
+        "complications": "Heart problems, brittle bones, and eye problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Hypothyroidism",
+        "description": "A condition in which the thyroid gland doesn't produce enough thyroid hormone.",
+        "causes": "Autoimmune disease (Hashimoto's), treatment for hyperthyroidism, or radiation therapy.",
+        "symptoms": [
+            "Fatigue",
+            "Increased sensitivity to cold",
+            "Constipation",
+            "Dry skin",
+            "Weight gain"
+        ],
+        "prevention": "No known way to prevent, but iodine in diet is important.",
+        "treatment_action": "Daily use of synthetic thyroid hormone.",
+        "complications": "Goiter, heart problems, and mental health issues.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

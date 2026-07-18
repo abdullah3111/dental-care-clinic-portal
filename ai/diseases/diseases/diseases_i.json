@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Impetigo",
+        "description": "A highly contagious skin infection that mainly affects infants and children.",
+        "causes": "Staphylococcal or streptococcal bacteria.",
+        "symptoms": [
+            "Red sores that quickly rupture",
+            "Honey-colored crusts",
+            "Itching and soreness"
+        ],
+        "prevention": "Good hygiene and keeping skin clean.",
+        "treatment_action": "Antibiotic ointments or oral antibiotics.",
+        "complications": "Kidney inflammation (rare) and scarring.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Influenza (Flu)",
+        "description": "A viral infection that attacks your respiratory system.",
+        "causes": "Influenza viruses.",
+        "symptoms": [
+            "Fever",
+            "Aching muscles",
+            "Chills and sweats",
+            "Headache",
+            "Dry cough",
+            "Fatigue"
+        ],
+        "prevention": "Annual flu vaccine and good hygiene.",
+        "treatment_action": "Rest, fluids, and antiviral medications in some cases.",
+        "complications": "Pneumonia, bronchitis, and heart problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Insomnia",
+        "description": "A common sleep disorder that can make it hard to fall asleep, hard to stay asleep, or cause you to wake up too early.",
+        "causes": "Stress, poor sleep habits, mental health disorders, or medical conditions.",
+        "symptoms": [
+            "Difficulty falling asleep",
+            "Waking up during the night",
+            "Waking up too early",
+            "Daytime tiredness"
+        ],
+        "prevention": "Consistent sleep schedule, stay active, and avoid caffeine/alcohol late in the day.",
+        "treatment_action": "Cognitive behavioral therapy (CBT-I) and lifestyle changes.",
+        "complications": "Lower performance, slowed reaction time, and increased risk of long-term diseases.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Iron Deficiency Anemia",
+        "description": "A condition in which blood lacks adequate healthy red blood cells due to insufficient iron.",
+        "causes": "Blood loss, lack of iron in diet, or inability to absorb iron.",
+        "symptoms": [
+            "Extreme fatigue",
+            "Weakness",
+            "Pale skin",
+            "Chest pain or shortness of breath",
+            "Cold hands and feet"
+        ],
+        "prevention": "Eat iron-rich foods and vitamin C to help absorption.",
+        "treatment_action": "Iron supplements and treating the underlying cause of blood loss.",
+        "complications": "Heart problems, pregnancy complications, and growth problems in children.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Irritable Bowel Syndrome (IBS)",
+        "description": "A common disorder that affects the large intestine.",
+        "causes": "Muscle contractions in the intestine, nervous system abnormalities, and severe infections.",
+        "symptoms": [
+            "Abdominal pain or cramping",
+            "Bloating",
+            "Gas",
+            "Diarrhea or constipation"
+        ],
+        "prevention": "Manage stress and identify trigger foods.",
+        "treatment_action": "Dietary changes, lifestyle adjustments, and medications.",
+        "complications": "Poor quality of life and mood disorders.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

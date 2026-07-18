@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Xeroderma Pigmentosum",
+        "description": "A rare genetic disorder in which the body's ability to repair damage caused by ultraviolet (UV) light is deficient.",
+        "causes": "Genetic mutations.",
+        "symptoms": [
+            "Severe sunburn after minimal sun exposure",
+            "Development of many freckles at an early age",
+            "Rough, scaly skin patches",
+            "Increased risk of skin cancer"
+        ],
+        "prevention": "Complete protection from UV light.",
+        "treatment_action": "Sun protection and regular skin exams.",
+        "complications": "Multiple skin cancers and neurological problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Xerostomia (Dry Mouth)",
+        "description": "A condition in which the salivary glands in your mouth don't make enough saliva to keep your mouth wet.",
+        "causes": "Medications, medical conditions, or treatments like chemotherapy.",
+        "symptoms": [
+            "Sticky, dry feeling in the mouth",
+            "Frequent thirst",
+            "Sores in the mouth",
+            "Difficulty chewing, speaking, or swallowing",
+            "Bad breath"
+        ],
+        "prevention": "Stay hydrated and avoid tobacco and alcohol.",
+        "treatment_action": "Saliva substitutes, medications to stimulate saliva production.",
+        "complications": "Tooth decay, gum disease, and mouth infections.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "X-linked Agammaglobulinemia",
+        "description": "A rare genetic disorder that affects the immune system's ability to fight infections.",
+        "causes": "Genetic mutation on the X chromosome.",
+        "symptoms": [
+            "Recurrent bacterial infections",
+            "Chronic diarrhea",
+            "Skin infections",
+            "Delayed growth",
+            "Absence of tonsils and lymph nodes"
+        ],
+        "prevention": "No known prevention as it's genetic.",
+        "treatment_action": "Regular immunoglobulin replacement therapy and antibiotics.",
+        "complications": "Chronic infections and organ damage.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Xanthoma",
+        "description": "Yellowish deposits of fat underneath the skin, often around the eyelids.",
+        "causes": "High cholesterol or triglyceride levels, diabetes, or genetic factors.",
+        "symptoms": [
+            "Yellow, orange, or reddish bumps on skin",
+            "Usually painless",
+            "Most commonly around eyelids",
+            "May appear on joints or tendons"
+        ],
+        "prevention": "Maintain healthy cholesterol levels and manage diabetes.",
+        "treatment_action": "Treat underlying condition, surgical removal if needed.",
+        "complications": "Cosmetic concerns, may indicate cardiovascular risk.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "X-linked Ichthyosis",
+        "description": "A genetic skin condition that causes dry, scaly skin.",
+        "causes": "Genetic mutation on the X chromosome affecting enzyme production.",
+        "symptoms": [
+            "Dry, scaly skin",
+            "Dark, thick scales",
+            "Skin that appears dirty",
+            "Scales mainly on neck, trunk, and legs"
+        ],
+        "prevention": "No prevention as it's genetic.",
+        "treatment_action": "Moisturizers, exfoliating agents, and topical treatments.",
+        "complications": "Social and psychological impact due to appearance.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Xerophthalmia",
+        "description": "A progressive eye disease caused by vitamin A deficiency.",
+        "causes": "Severe vitamin A deficiency, malnutrition.",
+        "symptoms": [
+            "Night blindness",
+            "Dry eyes",
+            "Foamy spots on the whites of eyes",
+            "Corneal ulcers",
+            "Complete blindness in severe cases"
+        ],
+        "prevention": "Adequate vitamin A intake through diet or supplements.",
+        "treatment_action": "High-dose vitamin A supplementation.",
+        "complications": "Permanent blindness if untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "X-linked Severe Combined Immunodeficiency",
+        "description": "A rare genetic disorder that severely weakens the immune system.",
+        "causes": "Genetic mutation on the X chromosome.",
+        "symptoms": [
+            "Severe, recurrent infections",
+            "Failure to thrive",
+            "Chronic diarrhea",
+            "Skin rashes",
+            "Delayed development"
+        ],
+        "prevention": "No prevention as it's genetic.",
+        "treatment_action": "Bone marrow transplant, gene therapy, immunoglobulin therapy.",
+        "complications": "Life-threatening infections, death if untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Xanthelasma",
+        "description": "Yellowish patches of cholesterol underneath the skin around the eyelids.",
+        "causes": "High cholesterol, diabetes, or genetic predisposition.",
+        "symptoms": [
+            "Yellow, soft plaques around eyelids",
+            "Usually painless",
+            "May be flat or slightly raised",
+            "Often symmetrical on both eyes"
+        ],
+        "prevention": "Maintain healthy cholesterol levels.",
+        "treatment_action": "Laser therapy, surgical removal, or chemical peels.",
+        "complications": "Cosmetic concerns, may indicate heart disease risk.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "X-linked Hypophosphatemia",
+        "description": "A genetic disorder that causes low phosphate levels in the blood.",
+        "causes": "Genetic mutation on the X chromosome.",
+        "symptoms": [
+            "Bone pain and weakness",
+            "Dental problems",
+            "Short stature",
+            "Bowing of legs",
+            "Muscle weakness"
+        ],
+        "prevention": "No prevention as it's genetic.",
+        "treatment_action": "Phosphate supplements and active vitamin D.",
+        "complications": "Bone deformities and dental complications.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Xerosis",
+        "description": "Abnormal dryness of the skin or mucous membranes.",
+        "causes": "Age, weather conditions, harsh soaps, medical conditions.",
+        "symptoms": [
+            "Dry, rough skin",
+            "Itching",
+            "Flaking or scaling",
+            "Cracks in the skin",
+            "Tight feeling skin"
+        ],
+        "prevention": "Use moisturizers, avoid harsh soaps, stay hydrated.",
+        "treatment_action": "Moisturizers, gentle cleansers, and topical treatments.",
+        "complications": "Skin infections from scratching, eczema.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

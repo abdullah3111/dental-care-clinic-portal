@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Fibromyalgia",
+        "description": "A disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory and mood issues.",
+        "causes": "Genetics, infections, and physical or emotional trauma.",
+        "symptoms": [
+            "Widespread pain",
+            "Fatigue",
+            "Cognitive difficulties ('fibro fog')",
+            "Sleep problems"
+        ],
+        "prevention": "No known way to prevent, but managing stress and staying active can help.",
+        "treatment_action": "Pain relievers, antidepressants, anti-seizure drugs, and physical therapy.",
+        "complications": "Depression, anxiety, and reduced quality of life.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Flu (Influenza)",
+        "description": "A viral infection that attacks your respiratory system.",
+        "causes": "Influenza viruses.",
+        "symptoms": [
+            "Fever",
+            "Aching muscles",
+            "Chills and sweats",
+            "Headache",
+            "Dry cough",
+            "Fatigue"
+        ],
+        "prevention": "Annual flu vaccine and good hygiene.",
+        "treatment_action": "Rest, fluids, and antiviral medications in some cases.",
+        "complications": "Pneumonia, bronchitis, and heart problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Folliculitis",
+        "description": "A common skin condition in which hair follicles become inflamed.",
+        "causes": "Bacterial or fungal infection.",
+        "symptoms": [
+            "Clusters of small red bumps or white-headed pimples",
+            "Pus-filled blisters",
+            "Itchy, burning skin",
+            "Painful, tender skin"
+        ],
+        "prevention": "Avoid tight clothing, shave with care, and keep skin clean.",
+        "treatment_action": "Antibiotic or antifungal creams, and warm compresses.",
+        "complications": "Boils, permanent skin damage, and scarring.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Food Poisoning",
+        "description": "Illness caused by eating contaminated food.",
+        "causes": "Bacteria, viruses, or parasites in food.",
+        "symptoms": [
+            "Nausea and vomiting",
+            "Watery or bloody diarrhea",
+            "Abdominal pain and cramps",
+            "Fever"
+        ],
+        "prevention": "Wash hands, cook food thoroughly, and store food properly.",
+        "treatment_action": "Fluids and rest. Antibiotics may be needed for bacterial cases.",
+        "complications": "Severe dehydration and kidney failure.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Frostbite",
+        "description": "An injury caused by freezing of the skin and underlying tissues.",
+        "causes": "Exposure to cold-weather conditions or direct contact with ice or frozen metal.",
+        "symptoms": [
+            "Cold skin and a prickling feeling",
+            "Numbness",
+            "Skin that looks red, white, bluish-white or grayish-yellow",
+            "Hard or waxy-looking skin"
+        ],
+        "prevention": "Dress in layers, protect hands and feet, and limit time in the cold.",
+        "treatment_action": "Rewarming the affected area and medical evaluation.",
+        "complications": "Infection, nerve damage, and gangrene.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

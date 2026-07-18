@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Zika Virus Infection",
+        "description": "A disease caused by the Zika virus, which is spread to people primarily through the bite of an infected Aedes species mosquito.",
+        "causes": "Zika virus.",
+        "symptoms": [
+            "Fever",
+            "Rash",
+            "Joint pain",
+            "Conjunctivitis (red eyes)"
+        ],
+        "prevention": "Prevent mosquito bites.",
+        "treatment_action": "Rest, fluids, and acetaminophen for fever and pain.",
+        "complications": "Microcephaly and other birth defects if infected during pregnancy.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Zollinger-Ellison Syndrome",
+        "description": "A rare condition in which tumors in the pancreas or duodenum cause the stomach to produce too much acid.",
+        "causes": "Gastrinomas (tumors) that secrete excessive gastrin hormone.",
+        "symptoms": [
+            "Severe stomach ulcers",
+            "Abdominal pain",
+            "Diarrhea",
+            "Nausea and vomiting",
+            "Weight loss"
+        ],
+        "prevention": "No known prevention.",
+        "treatment_action": "Proton pump inhibitors, surgery to remove tumors.",
+        "complications": "Severe ulcers, bleeding, perforation.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Zygomycosis (Mucormycosis)",
+        "description": "A serious fungal infection caused by molds called mucormycetes.",
+        "causes": "Inhalation or contact with fungal spores, often in immunocompromised patients.",
+        "symptoms": [
+            "Facial swelling",
+            "Black nasal discharge",
+            "Fever",
+            "Headache",
+            "Cough and chest pain"
+        ],
+        "prevention": "Avoid areas with dust and soil if immunocompromised.",
+        "treatment_action": "Antifungal medications, surgical removal of infected tissue.",
+        "complications": "Spread to brain, blindness, death if untreated.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Zenker's Diverticulum",
+        "description": "A pouch that forms in the throat due to weakness in the throat muscles.",
+        "causes": "Weakness in the muscles of the throat wall, often age-related.",
+        "symptoms": [
+            "Difficulty swallowing",
+            "Regurgitation of undigested food",
+            "Bad breath",
+            "Coughing",
+            "Weight loss"
+        ],
+        "prevention": "No known prevention.",
+        "treatment_action": "Surgery to remove or repair the diverticulum.",
+        "complications": "Aspiration pneumonia, malnutrition.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 5,
+        "disease_name": "Zinc Deficiency",
+        "description": "A condition caused by insufficient zinc in the diet or poor zinc absorption.",
+        "causes": "Poor diet, malabsorption, chronic diseases, or increased zinc needs.",
+        "symptoms": [
+            "Hair loss",
+            "Delayed wound healing",
+            "Loss of appetite",
+            "Impaired taste and smell",
+            "Skin rashes"
+        ],
+        "prevention": "Eat zinc-rich foods (meat, shellfish, legumes, seeds).",
+        "treatment_action": "Zinc supplements and dietary changes.",
+        "complications": "Impaired immune function, growth retardation in children.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 6,
+        "disease_name": "Zoster (Shingles)",
+        "description": "A viral infection that causes a painful rash, caused by reactivation of the chickenpox virus.",
+        "causes": "Reactivation of varicella-zoster virus (chickenpox virus).",
+        "symptoms": [
+            "Painful, burning, or tingling sensation",
+            "Red rash that develops into fluid-filled blisters",
+            "Itching",
+            "Fever and headache",
+            "Sensitivity to light"
+        ],
+        "prevention": "Shingles vaccine, especially for adults over 50.",
+        "treatment_action": "Antiviral medications, pain relievers, topical treatments.",
+        "complications": "Postherpetic neuralgia (chronic pain), vision problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 7,
+        "disease_name": "Zygomatic Fracture",
+        "description": "A break in the cheekbone (zygomatic bone), often from facial trauma.",
+        "causes": "Facial trauma from accidents, sports injuries, or violence.",
+        "symptoms": [
+            "Facial pain and swelling",
+            "Bruising around the eye",
+            "Double vision",
+            "Numbness in the cheek",
+            "Difficulty opening the mouth"
+        ],
+        "prevention": "Use protective equipment in sports, practice safety measures.",
+        "treatment_action": "Surgery to realign and stabilize the bone.",
+        "complications": "Permanent facial deformity, nerve damage, vision problems.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 8,
+        "disease_name": "Zoonotic Diseases",
+        "description": "Infectious diseases that can be transmitted from animals to humans.",
+        "causes": "Bacteria, viruses, parasites, or fungi from animals.",
+        "symptoms": [
+            "Varies by specific disease",
+            "Fever",
+            "Muscle aches",
+            "Respiratory symptoms",
+            "Gastrointestinal symptoms"
+        ],
+        "prevention": "Avoid contact with wild animals, practice good hygiene, vaccinate pets.",
+        "treatment_action": "Depends on specific disease - antibiotics, antivirals, or supportive care.",
+        "complications": "Varies by disease, can be severe or fatal.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 9,
+        "disease_name": "Zygote Intrafallopian Transfer (ZIFT) Complications",
+        "description": "Potential complications from the assisted reproductive technology procedure ZIFT.",
+        "causes": "Surgical procedure complications, multiple pregnancies, ovarian hyperstimulation.",
+        "symptoms": [
+            "Abdominal pain",
+            "Bleeding",
+            "Infection",
+            "Ovarian hyperstimulation symptoms",
+            "Ectopic pregnancy"
+        ],
+        "prevention": "Careful patient selection, experienced medical team.",
+        "treatment_action": "Depends on complication - may require surgery or medical management.",
+        "complications": "Ectopic pregnancy, multiple births, ovarian hyperstimulation syndrome.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 10,
+        "disease_name": "Zygomycete Infection",
+        "description": "A rare but serious fungal infection caused by zygomycete fungi.",
+        "causes": "Inhalation or wound contamination with zygomycete spores.",
+        "symptoms": [
+            "Rapid onset of symptoms",
+            "Facial pain and swelling",
+            "Black nasal discharge",
+            "Fever",
+            "Tissue necrosis"
+        ],
+        "prevention": "Avoid exposure to contaminated soil and organic matter if immunocompromised.",
+        "treatment_action": "Aggressive antifungal therapy and surgical debridement.",
+        "complications": "Rapid spread, organ failure, high mortality rate.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

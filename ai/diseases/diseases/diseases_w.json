@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "disease_name": "West Nile Virus",
+        "description": "A viral infection typically spread by mosquitoes.",
+        "causes": "West Nile virus.",
+        "symptoms": [
+            "Fever",
+            "Headache",
+            "Body aches",
+            "Skin rash",
+            "Swollen lymph glands"
+        ],
+        "prevention": "Prevent mosquito bites.",
+        "treatment_action": "Supportive care (pain relievers, fluids).",
+        "complications": "Encephalitis or meningitis.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Whooping Cough (Pertussis)",
+        "description": "A highly contagious respiratory tract infection.",
+        "causes": "Bordetella pertussis bacteria.",
+        "symptoms": [
+            "Severe coughing fits",
+            "High-pitched 'whoop' sound when breathing in",
+            "Vomiting after coughing",
+            "Fatigue"
+        ],
+        "prevention": "Pertussis vaccine (DTaP).",
+        "treatment_action": "Antibiotics.",
+        "complications": "Pneumonia, seizures, and brain damage (especially in infants).",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]

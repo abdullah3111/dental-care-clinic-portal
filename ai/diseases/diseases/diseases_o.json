@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "disease_name": "Obesity",
+        "description": "A complex disease involving an excessive amount of body fat.",
+        "causes": "Taking in more calories than you burn through exercise and normal daily activities.",
+        "symptoms": [
+            "Body mass index (BMI) of 30 or higher",
+            "Shortness of breath",
+            "Increased sweating",
+            "Snoring",
+            "Joint pain"
+        ],
+        "prevention": "Healthy diet and regular physical activity.",
+        "treatment_action": "Dietary changes, exercise, behavior change, and sometimes weight-loss medications or surgery.",
+        "complications": "Heart disease, type 2 diabetes, and certain cancers.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 2,
+        "disease_name": "Obsessive-Compulsive Disorder (OCD)",
+        "description": "A mental health disorder that occurs when a person gets caught in a cycle of obsessions and compulsions.",
+        "causes": "Biology, genetics, and environment.",
+        "symptoms": [
+            "Fear of contamination",
+            "Need for symmetry or order",
+            "Excessive cleaning or hand-washing",
+            "Repeatedly checking things"
+        ],
+        "prevention": "No known way to prevent, but early treatment can help.",
+        "treatment_action": "Psychotherapy (CBT) and medications (antidepressants).",
+        "complications": "Excessive time spent engaging in ritualistic behaviors and poor quality of life.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 3,
+        "disease_name": "Osteoporosis",
+        "description": "A condition that causes bones to become weak and brittle.",
+        "causes": "Bone loss that occurs as you age.",
+        "symptoms": [
+            "Back pain",
+            "Loss of height over time",
+            "A stooped posture",
+            "A bone that breaks much more easily than expected"
+        ],
+        "prevention": "Adequate calcium and vitamin D intake, and weight-bearing exercise.",
+        "treatment_action": "Medications to strengthen bones and lifestyle changes.",
+        "complications": "Bone fractures, particularly in the spine or hip.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    },
+    {
+        "id": 4,
+        "disease_name": "Ovarian Cancer",
+        "description": "A type of cancer that begins in the ovaries.",
+        "causes": "Genetic mutations and family history.",
+        "symptoms": [
+            "Abdominal bloating or swelling",
+            "Quickly feeling full when eating",
+            "Weight loss",
+            "Discomfort in the pelvic area",
+            "Changes in bowel habits"
+        ],
+        "prevention": "No known way to prevent, but oral contraceptives may reduce risk.",
+        "treatment_action": "Surgery and chemotherapy.",
+        "complications": "Spread to other organs and death.",
+        "medical_disclaimer": "This information is for educational purposes only and is not a substitute for professional medical advice."
+    }
+]
